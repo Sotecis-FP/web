@@ -1,0 +1,821 @@
+
+
+/* tablet */
+
+/* @media(max-width: 767px){
+  @font-face {
+    font-family: HelveticaNeueLTStd-Th;
+    src:url(../fuentes/HelveticaNeueLTStd-Th.otf);
+  }
+  @font-face {
+    font-family: MegaFresh;
+    src:url(../fuentes/MegaFresh.ttf);
+  }
+  @font-face {
+    font-family: ChronicaPro;
+    src:url(../fuentes/ChronicaPro-Book.otf);
+  }
+
+
+
+  ul > li {
+      color: #b09f61;
+  }
+
+  .contenedor{
+    background: red;
+    width: 100%;
+    max-width:1000px;
+  }
+
+
+
+  .flower{
+    width: 60%;
+    position:relative;
+
+
+  }
+
+  .caja_blanca{
+  width: 58%;
+  position: absolute;
+  top: 700px;
+  left: 290px;
+  border-radius: 3px;
+
+  }
+  .texto_cuadro {
+    position: absolute;
+    top: 1050px;
+    left: 410px;
+
+
+  }
+  .fuente_2{
+    font-size: 23px;
+    font-family:MegaFresh;
+    color: #b09f61;
+    font-weight: 100;
+    margin-left: -58px;
+    margin-top: -320px;
+
+
+
+  }
+  .fuente_3{
+    width: 80%;
+    font-size: 48px;
+    font-family:HelveticaNeueLTStd-Th;
+    color: #b09f61;
+    font-weight: lighter;
+    line-height:1.1;
+    margin-left: 8px;
+    margin-top: -15px;
+
+  }
+  .fuente_4{
+
+    width: 33%;
+    font-size: 18px;
+    font-family:ChronicaPro;
+    color: black;
+    font-weight: lighter;
+    text-align: left;
+    margin-top: 40px;
+    display: none;
+  }
+  .img-salon{
+    border-radius: 4px;
+    width: 60%;
+    position: absolute;
+    top: 920px;
+    left: 30px;
+    border-radius: 3px;
+
+
+  }
+  .orquidea{
+    width: 10%;
+    top: 920px;
+    left: 590px;
+    position: absolute;
+  }
+
+  .imagen_baile{
+    top: 5px;
+    width: 100%;
+    position: relative;
+    top: -150px;
+
+  }
+  .texto_dos{
+    position: absolute;
+    top: 1430px;
+    left: 460px;
+    width: 38%;
+    font-size: 28px;
+    color: #b09f61;
+    font-family: HelveticaNeueLTStd-Th;
+
+
+  }
+  .parrafo_dos{
+    position: absolute;
+    top: 1540px;
+    left: 470px;
+    width: 30%;
+    font-size: 15px;
+    color: white;
+
+
+  }
+
+  .hojasflores{
+    width: 17%;
+    top: 1640px;
+    left: 620px;
+    position: absolute;
+
+
+
+  }
+  #fondo_mancha{
+    background: #040e2a;
+    padding: 80px 0;
+    height: 220px;
+  }
+  .mancha{
+    top: -250px;
+    width: 100%;
+    position: relative;
+  }
+  .texto_reserva{
+    position: absolute;
+    top: 1860px;
+    left: 200px;
+    width: 50%;
+    font-size: 30px;
+    color: #b09f61;
+    font-family:HelveticaNeueLTStd-Th;
+    text-align: center;
+
+  }
+  .form_reserva{
+    position: absolute;
+    top: 1900px;
+    width: 50%;
+    left: 230px;
+    display: flex;
+    max-width: 59%;
+
+
+  }
+
+  input{
+    background-color: rgba(18, 18, 19, 0);
+  	border: 2px solid #b09f61;
+  	font-size: 15px;
+    height: 30px;
+    color:#b09f61;
+    padding-left: 20px;
+    border-radius: 3px;
+    display: block;
+    margin-top: 10px;
+    width: 100%
+  }
+  .btn_reservar{
+    background-color: #b09f61;
+  	border: 2px solid #b09f61;
+  	font-size: 15px;
+    height: 30px;
+    color:black;
+    padding-left: 10px;
+    width: 120px;
+    border-radius: 3px;
+    padding-top:2px;
+
+
+  }
+
+  #footer_home{
+    background-color: white;
+    height: 300px;
+
+  }
+  .colibri{
+    float: left;
+    max-width: 15%;
+    width:
+    left: 40px;
+
+
+  }
+  .img_colibri{
+    width: 140px;
+    margin-left: -13px;
+  }
+  .footer_menu{
+
+    height: 80px;
+    width: 50px;
+    margin-top: 3px;
+    margin-left:30px;
+    font-family:HelveticaNeueLTStd-Th;
+
+  }
+
+  .form_suscribir{
+    margin-top: 5px;
+    margin-left:123px;
+    font-family:HelveticaNeueLTStd-Th;
+    color: #b09f61;
+    width: 30%;
+
+  }
+  .contac_list{
+    padding-left: 0px;
+    font-family:HelveticaNeueLTStd-Th;
+
+
+  }
+
+  .footer_contact{
+    margin-top: 32px;
+    margin-left:118px;
+    font-family:HelveticaNeueLTStd-Th;
+    color: #b09f61;
+  }
+
+  .flor_roja{
+    float: left;
+    max-width: 15%;
+    left: 30px;
+
+  }
+  .img_flor_roja{
+    width: 154px;
+    margin-left: -25px;
+    margin-top: -90px;
+  }
+
+  #footer_master{
+    background-color: #040e2a;
+    height: 50px;
+
+  }
+
+} */
+
+
+/* 800px */
+
+@media screen and (max-width: 800px){
+  @font-face {
+    font-family: HelveticaNeueLTStd-Th;
+    src:url(../fuentes/HelveticaNeueLTStd-Th.otf);
+  }
+  @font-face {
+    font-family: MegaFresh;
+    src:url(../fuentes/MegaFresh.ttf);
+  }
+  @font-face {
+    font-family: ChronicaPro;
+    src:url(../fuentes/ChronicaPro-Book.otf);
+  }
+
+  #about{
+    width: auto;
+    max-width: 800px;
+
+    height: auto;
+  }
+  .about_contain{
+    width: auto;
+    max-width: 800px;
+
+    height: auto;
+  }
+
+
+
+  ul > li {
+      color: #b09f61;
+  }
+
+  .contenedor{
+    background: red;
+    width: 100%;
+    max-width:1000px;
+  }
+
+
+
+  .flower{
+    width: 60%;
+    position:relative;
+  }
+
+  .caja_blanca{
+  width: 52%;
+  position: absolute;
+  /* top: 700px;
+  left: 290px; */
+  margin-top: -193px;
+  margin-left: 230px;
+  border-radius: 3px;
+
+  }
+  .img-salon{
+    border-radius: 4px;
+    width: 52%;
+    position: absolute;
+    top: 1120px;
+    left: 30px;
+    border-radius: 3px;
+
+
+  }
+  .orquidea{
+    width: 10%;
+    margin-top: -240px;
+    position: absolute;
+  }
+
+
+  .texto_cuadro {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 200px;
+
+
+  }
+  .fuente_2{
+    font-size: 33px;
+    font-family:MegaFresh;
+    color: #b09f61;
+    font-weight: 100;
+    margin-left: -58px;
+    margin-top: -320px;
+
+
+
+  }
+  .fuente_3{
+    width: 80%;
+    font-size: 48px;
+    font-family:HelveticaNeueLTStd-Th;
+    color: #b09f61;
+    font-weight: lighter;
+    line-height:1.1;
+    margin-left: 8px;
+    margin-top: -15px;
+
+  }
+  .fuente_4{
+
+    width: 33%;
+    font-size: 18px;
+    font-family:ChronicaPro;
+    color: black;
+    font-weight: lighter;
+    text-align: left;
+    margin-top: 40px;
+    display: none;
+  }
+
+
+
+  .imagen_baile{
+    top: 5px;
+    width: 100%;
+    position: relative;
+    top: -150px;
+
+  }
+  .texto_dos{
+    position: absolute;
+    margin-top: -600px;
+    margin-left: -300px;
+    width: 38%;
+    font-size: 28px;
+    color: #b09f61;
+    font-family: HelveticaNeueLTStd-Th;
+
+
+  }
+  .parrafo_dos{
+    position: absolute;
+    margin-top: -750px;
+    margin-left: -400px;
+    width: 30%;
+    font-size: 15px;
+    color: white;
+
+
+  }
+
+  .hojasflores{
+    width: 17%;
+    margin-top: -650px;
+    margin-left: -420px;
+
+    position: absolute;
+
+
+
+  }
+  #fondo_mancha{
+    background: #040e2a;
+    padding: 80px 0;
+    height: 220px;
+  }
+  .mancha{
+    top: -250px;
+    width: 100%;
+    position: relative;
+  }
+  .texto_reserva{
+    position: absolute;
+    top: 2050px;
+    left: 200px;
+    width: 50%;
+    font-size: 50px;
+    color: #b09f61;
+    font-family:HelveticaNeueLTStd-Th;
+    text-align: center;
+
+  }
+  .form_reserva{
+    position: absolute;
+    top: 2150px;
+    width: 60%;
+    left: 170px;
+    display: flex;
+    max-width: 59%;
+
+
+  }
+
+  input{
+    background-color: rgba(18, 18, 19, 0);
+  	border: 2px solid #b09f61;
+  	font-size: 15px;
+    height: 30px;
+    color:#b09f61;
+    padding-left: 20px;
+    border-radius: 3px;
+    display: block;
+    margin-top: 10px;
+    width: 100%
+  }
+  .btn_reservar{
+    background-color: #b09f61;
+  	border: 2px solid #b09f61;
+  	font-size: 15px;
+    height: 30px;
+    color:black;
+    padding-left: 10px;
+    width: 120px;
+    border-radius: 3px;
+    padding-top:2px;
+
+
+  }
+
+  #footer_home{
+    background-color: white;
+    height: 300px;
+
+  }
+  .colibri{
+    float: left;
+    max-width: 15%;
+    width:
+    left: 40px;
+
+
+  }
+  .img_colibri{
+    width: 140px;
+    margin-left: -13px;
+  }
+  .footer_menu{
+
+    height: 80px;
+    width: 50px;
+    margin-top: 3px;
+    margin-left:30px;
+    font-family:HelveticaNeueLTStd-Th;
+
+  }
+
+  .form_suscribir{
+    margin-top: 5px;
+    margin-left:123px;
+    font-family:HelveticaNeueLTStd-Th;
+    color: #b09f61;
+    width: 30%;
+
+  }
+  .contac_list{
+    padding-left: 0px;
+    font-family:HelveticaNeueLTStd-Th;
+
+
+  }
+
+  .footer_contact{
+    margin-top: 32px;
+    margin-left:118px;
+    font-family:HelveticaNeueLTStd-Th;
+    color: #b09f61;
+  }
+
+  .flor_roja{
+    float: left;
+    max-width: 15%;
+    left: 30px;
+
+  }
+  .img_flor_roja{
+    width: 154px;
+    margin-left: -25px;
+    margin-top: -90px;
+  }
+
+  #footer_master{
+    background-color: #040e2a;
+    height: 50px;
+
+  }
+
+}
+
+
+ @media screen and (max-width: 480px){
+
+  @font-face {
+    font-family: HelveticaNeueLTStd-Th;
+    src:url(../fuentes/HelveticaNeueLTStd-Th.otf);
+  }
+  @font-face {
+    font-family: MegaFresh;
+    src:url(../fuentes/MegaFresh.ttf);
+  }
+  @font-face {
+    font-family: ChronicaPro;
+    src:url(../fuentes/ChronicaPro-Book.otf);
+  }
+
+
+
+
+
+  ul > li {
+      color: #b09f61;
+  }
+
+  .contenedor{
+    width: 100%;
+    max-width:1000px;
+  }
+
+
+
+  .flower{
+    width: 80%;
+    position:relative;
+
+
+  }
+
+  .caja_blanca{
+  width: 60%;
+  position: absolute;
+  top: 1080px;
+  left: -90px;
+  border-radius: 3px;
+
+  }
+  .img-salon{
+    border-radius: 4px;
+    width: 60%;
+    position: absolute;
+    top: 1020px;
+    left: 30px;
+    border-radius: 3px;
+
+
+  }
+  .orquidea{
+    width: 12%;
+    top: 1240px;
+    left: 300px;
+    position: absolute;
+  }
+  .texto_cuadro {
+    position: absolute;
+    top: 1120px;
+    left: 1px;
+
+  }
+  .fuente_2{
+    font-size: 23px;
+    font-family:MegaFresh;
+    color: #b09f61;
+    font-weight: 100;
+    margin-left: -58px;
+    margin-top: -340px;
+
+
+
+  }
+  .fuente_3{
+    width: 90%;
+    font-size: 28px;
+    font-family:HelveticaNeueLTStd-Th;
+    color: #b09f61;
+    font-weight: lighter;
+    line-height:1.1;
+    margin-left: 8px;
+    margin-top: -15px;
+
+  }
+  .fuente_4{
+
+    width: 33%;
+    font-size: 18px;
+    font-family:ChronicaPro;
+    color: black;
+    font-weight: lighter;
+    text-align: left;
+    margin-top: 40px;
+    display: none;
+  }
+
+
+
+  .imagen_baile{
+    top: 5px;
+    width: 100%;
+    position: relative;
+    top: -90px;
+
+  }
+  .texto_dos{
+    position: absolute;
+    margin-left: -580px;
+    margin-top: -910px;
+    width: 43%;
+    font-size: 18px;
+    color: #b09f61;
+    font-family: HelveticaNeueLTStd-Th;
+
+  }
+  .parrafo_dos{
+    position: absolute;
+    top: 2450px;
+    left: 910px;
+    width: 15%;
+    font-size: 15px;
+    color: white;
+    display: none;
+
+  }
+
+  .hojasflores{
+    width: 17%;
+    top: 2450px;
+    left: 1080px;
+    position: absolute;
+    display: none;
+
+  }
+  #fondo_mancha{
+    background: #040e2a;
+    padding: 80px 0;
+    height: 190px;
+  }
+  .mancha{
+    top: -250px;
+    width: 100%;
+    position: relative;
+
+
+
+  }
+  .texto_reserva{
+    position: absolute;
+    top: 1460px;
+    left: 110px;
+    width: 50%;
+    font-size: 30px;
+    color: #b09f61;
+    font-family:HelveticaNeueLTStd-Th;
+    text-align: center;
+
+  }
+  .form_reserva{
+    position: absolute;
+    top: 1500px;
+    width: 85%;
+    left: 110px;
+
+    display: flex;
+    max-width: 59%;
+
+
+  }
+
+  input{
+    background-color: rgba(18, 18, 19, 0);
+  	border: 2px solid #b09f61;
+  	font-size: 15px;
+    height: 30px;
+    color:#b09f61;
+    padding-left: 20px;
+    border-radius: 3px;
+    display: block;
+    margin-top: 10px;
+    width: 100%
+  }
+  .btn_reservar{
+    background-color: #b09f61;
+  	border: 2px solid #b09f61;
+  	font-size: 15px;
+    height: 30px;
+    color:black;
+    padding-left: 10px;
+    width: 120px;
+    border-radius: 3px;
+    padding-top:4px;
+
+
+  }
+
+  #footer_home{
+    background-color: white;
+    height: 500px;
+
+  }
+  .colibri{
+    float: left;
+    max-width: 15%;
+    left: 30px;
+
+  }
+  .img_colibri{
+    width: 90px;
+    margin-left: -23px;
+  }
+  .footer_menu{
+
+    height: 80px;
+    width: 50px;
+    margin-top: 3px;
+    margin-left:30px;
+    font-family:HelveticaNeueLTStd-Th;
+
+  }
+
+  .form_suscribir{
+    margin-top: 20px;
+    margin-left:123px;
+    font-family:HelveticaNeueLTStd-Th;
+    color: #b09f61;
+    width: 50%;
+
+  }
+  .contac_list{
+    padding-left: 0px;
+    font-family:HelveticaNeueLTStd-Th;
+
+
+  }
+
+  .footer_contact{
+    margin-top: 32px;
+    margin-left:118px;
+    font-family:HelveticaNeueLTStd-Th;
+    color: #b09f61;
+  }
+
+  .flor_roja{
+    float: left;
+    max-width: 15%;
+    left: 30px;
+  }
+  .img_flor_roja{
+    width: 124px;
+    margin-left: -2px;
+    margin-top: -10px;
+  }
+
+  #footer_master{
+    background-color: #040e2a;
+    height: 50px;
+
+  }
+
+}

@@ -1,0 +1,330 @@
+
+.img_espectaculo_1{
+  width: 100%;
+  position: relative;
+
+}
+.img_puntos{
+  width: 60%;
+  margin-left: 7%;
+  position: absolute;
+  margin-top: -120%;
+}
+.img_puntos_2{
+  width: 60%;
+  margin-left: 7%;
+  position: absolute;
+  margin-top: -90%;
+}
+.img_bancuco{
+  width: 60%;
+}
+.img_flor{
+  width: 10%;
+  margin-left: 83%;
+  position: absolute;
+  margin-top: -20%;
+}
+.img_colibri_2{
+  width: 10%;
+  margin-left: 68%;
+  position: absolute;
+  margin-top: -15%;
+}
+
+.fondo_espectaculo{
+  background: #040e2a;
+}
+
+.esp_caja_texto{
+  width: 50%;
+  margin-left: 57%;
+  position: absolute;
+  margin-top: -140%;
+
+}
+
+ .esp_vive{
+   font-size: 43px;
+   font-family:MegaFresh;
+   color: #b09f61;
+   font-weight: 100;
+}
+.esp_vive_3{
+
+  width: 43%;
+  font-size: 18px;
+  font-family:ChronicaPro;
+  color: white;
+  font-weight: lighter;
+  text-align: left;
+  margin-left: 10%;
+}
+
+.esp_vive_2{
+  width: 80%;
+  font-size: 63px;
+  font-family:HelveticaNeueLTStd-Th;
+  color: #b09f61;
+  font-weight: lighter;
+  line-height:1.1;
+  margin-left: 3%;
+}
+
+.esp_caja_lugar{
+  width: 50%;
+  margin-left: 9%;
+  position: absolute;
+  margin-top: -80%;
+
+}
+.esp_lugar{
+  font-size: 43px;
+  font-family:MegaFresh;
+  color: #b09f61;
+  font-weight: 100;
+
+}
+.esp_lugar_2{
+  width: 80%;
+  font-size: 63px;
+  font-family:HelveticaNeueLTStd-Th;
+  color: #b09f61;
+  font-weight: lighter;
+  line-height:1.1;
+  margin-left: 3%;
+}
+.esp_lugar_3{
+
+  width: 43%;
+  font-size: 18px;
+  font-family:ChronicaPro;
+  color: white;
+  font-weight: lighter;
+  text-align: left;
+  margin-left: 10%;
+}
+.caja_bamcuco{
+  width: 50%;
+  margin-left: 67%;
+  position: absolute;
+  margin-top: -30%;
+}
+.invitacion{
+  width: 60%;
+  font-size: 43px;
+  font-family:HelveticaNeueLTStd-Th;
+  color: #b09f61;
+  font-weight: lighter;
+  line-height:1.1;
+  margin-left: 3%;
+
+}
+.invitacion_nombre{
+  color: white;
+  margin-left: 10%;
+}
+
+@media screen and (max-width: 1024px){
+  .esp_caja_texto{
+    width: 40%;
+    margin-left: 67%;
+
+  }
+  .esp_vive{
+    font-size: 43px;
+    font-weight: 100;
+ }
+ .esp_vive_3{
+   width: 43%;
+   font-size: 18px;
+   margin-left: 4%;
+ }
+
+ .esp_vive_2{
+   width: 80%;
+   font-size: 33px;
+   margin-left: 3%;
+ }
+
+
+/* Texto Lugar */
+ .esp_caja_lugar{
+   width: 50%;
+   margin-left: 5%;
+   margin-top: -80%;
+
+ }
+
+ .esp_lugar_2{
+   width: 80%;
+   font-size: 45px;
+   margin-left: 3%;
+ }
+ .esp_lugar_3{
+
+   width: 47%;
+   font-size: 18px;
+   margin-left: 3%;
+ }
+
+
+ /* invitacion */
+ .caja_bamcuco{
+   width: 40%;
+   margin-left: 67%;
+   position: absolute;
+   margin-top: -30%;
+ }
+ .invitacion{
+   width: 80%;
+   font-size: 33px;
+
+
+ }
+ .img_flor{
+   margin-top: -18%;
+ }
+ .img_colibri_2{
+   width: 20%;
+   margin-left: 67%;
+   position: absolute;
+   margin-top: -15%;
+ }
+
+}
+
+@media screen and (max-width: 800px){
+  .esp_caja_texto{
+    width: 30%;
+    margin-left: 67%;
+
+
+  }
+  .esp_vive{
+    font-size: 43px;
+    font-weight: 100;
+ }
+ .esp_vive_3{
+   display: none;
+ }
+
+ .esp_vive_2{
+   width: 100%;
+   font-size: 28px;
+   margin-left: 3%;
+
+ }
+
+
+/* Texto Lugar */
+ .esp_caja_lugar{
+   width: 50%;
+   margin-left: 5%;
+   margin-top: -80%;
+
+ }
+ .esp_lugar_2{
+   width: 80%;
+   font-size: 35px;
+   margin-left: 3%;
+ }
+ .esp_lugar_3{
+   width: 47%;
+   font-size: 13px;
+   margin-left: 3%;
+ }
+ /* invitacion */
+ .caja_bamcuco{
+   width: 40%;
+   margin-left: 67%;
+   position: absolute;
+   margin-top: -30%;
+ }
+ .invitacion{
+   width: 80%;
+   font-size: 30px;
+ }
+ .img_flor{
+   margin-top: -12%;
+ }
+ .img_colibri_2{
+   width: 15%;
+   margin-left: 67%;
+   position: absolute;
+   margin-top: -10%;
+ }
+
+}
+@media screen and (max-width: 480px){
+  .esp_caja_texto{
+    width: 40%;
+    margin-left: 60%;
+  }
+
+  .esp_vive{
+    font-size: 35px;
+    font-weight: 100;
+ }
+ .esp_vive_3{
+   display: none;
+ }
+ .esp_vive_2{
+   width: 100%;
+   font-size: 18px;
+   margin-left: -1%;
+   margin-top: -15%;
+
+ }
+
+
+/* Texto Lugar */
+
+ .esp_caja_lugar{
+   width: 50%;
+   margin-left: 5%;
+   margin-top: -80%;
+
+ }
+ .esp_lugar{
+   font-size: 33px;
+ }
+ .esp_lugar_2{
+   width: 80%;
+   font-size: 25px;
+   margin-left: -3%;
+   margin-top: -8%;
+ }
+ .esp_lugar_3{
+   width: 47%;
+   font-size: 13px;
+   margin-left: 3%;
+ }
+ /* invitacion */
+ .caja_bamcuco{
+   width: 40%;
+   margin-left: 67%;
+   position: absolute;
+   margin-top: -30%;
+ }
+ .invitacion{
+   width: 80%;
+   font-size: 20px;
+   margin-top: -20%;
+ }
+ .invitacion_nombre{
+   color: white;
+   margin-left: 5%;
+   font-size: 70%;
+ }
+ .img_flor{
+   margin-top: -12%;
+ }
+ .img_colibri_2{
+   width: 15%;
+   margin-left: 67%;
+   position: absolute;
+   margin-top: -10%;
+ }
+
+}

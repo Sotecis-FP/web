@@ -1,0 +1,106 @@
+.caja-header-carro{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin-top: -2%;
+}
+.titulo-carro{
+  position: absolute;
+  top:50%;
+  left: 50%;
+    font-family: SunValley;
+    font-size: 78px;
+    color:#ffffff;
+  transform: translate(-50%, -50%);
+}
+
+thead{
+  color:#BE965F;
+  font-family: Avenir;
+
+}
+tr{
+  color:#BE965F;
+  font-family: Avenir;
+}
+
+.texto-pro{
+  color:#BE965F;
+  margin-left: 4%;
+}
+.subtotal{
+  text-align: right;
+  font-family: SunValley;
+  font-size: 48px;
+  color:#BE965F;
+}
+.sub-precio{
+  font-size: 22px;
+  color:#BE965F;
+  font-family: Avenir;
+  padding-top: 10%;
+}
+
+.formulario{
+  margin-top: 10%;
+}
+
+.caja-textarea p{
+  font-size: 15px;
+  color:#BE965F;
+  font-family: Avenir;
+
+}
+.caja-textarea textarea{
+  color:#BE965F;
+  border: 1px solid #BE965F;
+
+
+}
+
+.tienda img{
+  width: 40%;
+  margin-top: 11%;
+  float: left;
+  margin-left: 10%;
+}
+
+.caja-inputs{
+  margin-top: 17%;
+}
+
+.caja-inputs input{
+  width: 90%;
+  float: right;
+  color: #BE965F;
+  margin-top: -3%;
+  border: 1px solid #BE965F;
+}
+.fecha p{
+  float: left;
+  margin-left: 10%;
+  padding-top: 1%;
+  color:#BE965F;
+  font-family: Avenir;
+}
+.hora p{
+  float: left;
+  margin-left: 10%;
+  margin-top: 3%;
+  color:#BE965F;
+  font-family: Avenir;
+}
+
+.btn-check{
+  color: white;
+  background: #F5C89C;
+  margin-left: 6%;
+  margin-top: 2%;
+  width: 42.5%;
+  border-radius: 2px;
+  height: 35px;
+}
+
+.recoger{
+  display: none;
+}

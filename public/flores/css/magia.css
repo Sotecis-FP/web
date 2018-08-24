@@ -1,0 +1,592 @@
+@font-face {
+  font-family: HelveticaNeueLTStd-Th;
+  src:url(../fuentes/HelveticaNeueLTStd-Th.otf);
+}
+@font-face {
+  font-family: MegaFresh;
+  src:url(../fuentes/MegaFresh.ttf);
+}
+@font-face {
+  font-family: ChronicaPro;
+  src:url(../fuentes/ChronicaPro-Book.otf);
+}
+.footer_home{
+ background: white; 
+}
+.uno{
+  background: #040e2a;
+}
+
+.contenedor{
+  width: 100%;
+  height: 1000px;
+  margin: auto;
+
+}
+
+.div_flower{
+  width: 100%;
+}
+
+.div_flower{
+  width: 100%;
+}
+.flower{
+  width: 50%;
+  position: relative;
+}
+
+.caja_blanca{
+  width: 50%;
+  margin-left: 5%;
+  position: absolute;
+  margin-top: -40%;
+  border-radius: 5px;
+
+
+}
+.img-salon{
+  width: 60%;
+  margin-left: 40%;
+  position: absolute;
+  margin-top: -60%;
+  border-radius: 5px;
+}
+.orquidea{
+  width: 10%;
+  margin-top: -26%;
+  margin-left: 36%;
+  position: absolute;
+}
+
+
+.texto_cuadro{
+  width: 40%;
+  margin-left: 7%;
+  position: absolute;
+  margin-top: -38%;
+
+}
+.fuente_2{
+  font-size: 43px;
+  font-family:MegaFresh;
+  color: #b09f61;
+  font-weight: 100;
+
+
+}
+.fuente_3{
+  width: 70%;
+  font-size: 63px;
+  font-family:HelveticaNeueLTStd-Th;
+  color: #b09f61;
+  font-weight: lighter;
+  line-height:1.1;
+  margin-left: 10%;
+}
+.fuente_4{
+
+  width: 43%;
+  font-size: 18px;
+  font-family:ChronicaPro;
+  color: black;
+  font-weight: lighter;
+  text-align: left;
+  margin-left: 10%;
+}
+
+.dos{
+  background: #040e2a;
+
+}
+.imagen_baile{
+  width: 100%;
+  position: relative;
+}
+
+.texto_dos{
+  position: absolute;
+  width: 40%;
+  font-size: 50px;
+  color: #b09f61;
+  font-family: HelveticaNeueLTStd-Th;
+  margin-left:60%;
+  margin-top: -46%;
+
+}
+.parrafo_dos{
+  position: absolute;
+  width: 15%;
+  font-size: 15px;
+  color: white;
+  margin-left:66%;
+  margin-top: -32%;
+
+}
+.hojasflores{
+  width: 17%;
+  position: absolute;
+  margin-left:80%;
+  margin-top: -30%;
+
+}
+
+.tres{
+  background: #040e2a;
+}
+.mancha{
+  width: 100%;
+  position: relative;
+}
+.texto_reserva{
+  position: absolute;
+  width: 40%;
+  font-size: 60px;
+  color: #b09f61;
+  font-family:HelveticaNeueLTStd-Th;
+  margin-top: -34%;
+  margin-left:39%;
+
+}
+.form_reserva{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  max-width: 59%;
+  margin-top: -25%;
+  margin-left: 25%;
+}
+
+input{
+  background-color: rgba(18, 18, 19, 0);
+	border: 2px solid #b09f61;
+	font-size: 15px;
+  height: 35px;
+  color:#b09f61;
+  padding-left: 20px;
+  border-radius: 3px;
+
+}
+.btn_reservar{
+  background-color: #b09f61;
+	border: 2px solid #b09f61;
+	font-size: 15px;
+  height: 35px;
+  color:black;
+  padding-left: 10px;
+  width: 120px;
+  border-radius: 3px;
+  padding-top:1%;
+}
+
+
+
+
+.colibri{
+  float: left;
+  max-width: 15%;
+  margin-left: 1%;
+
+}
+.footer_menu{
+  height: 8%;
+  width: 5%;
+  margin-top: 4%;
+  margin-left:2%;
+  font-family:HelveticaNeueLTStd-Th;
+}
+.form_suscribir{
+  margin-top: 4%;
+  margin-left:10%;
+  font-family:HelveticaNeueLTStd-Th;
+  color: #b09f61;
+}
+.contac_list{
+  padding-left: 0px;
+  font-family:HelveticaNeueLTStd-Th;
+
+}
+.footer_contact{
+  margin-top: 4%;
+  margin-left:6%;
+  font-family:HelveticaNeueLTStd-Th;
+  color: #b09f61;
+}
+.img_flor_roja{
+  width: 50%;
+  margin-left: 360%;
+  margin-top: -49%;
+}
+.input_suscribete{
+  width: 125%;
+}
+.btn_suscribir{
+  background-color: #b09f61;
+	border: 2px solid #b09f61;
+	font-size: 18px;
+  height: 35px;
+  color:black;
+  padding-left: 10px;
+  width: 120px;
+  border-radius: 3px;
+  padding-top:3%;
+}
+
+@media(max-width: 1024px){
+
+  .texto_cuadro{
+    width: 70%;
+    margin-left: 7%;
+    position: absolute;
+    margin-top: -38%;
+
+
+  }
+  .fuente_2{
+    font-size: 43px;
+    font-family:MegaFresh;
+    color: #b09f61;
+    font-weight: 100;
+
+
+
+  }
+  .fuente_3{
+    width: 40%;
+    font-size: 43px;
+    font-family:HelveticaNeueLTStd-Th;
+    color: #b09f61;
+    font-weight: lighter;
+    line-height:1.1;
+    margin-left: -1%;
+  }
+  .fuente_4{
+
+    width: 36%;
+    font-size: 18px;
+    font-family:ChronicaPro;
+    color: black;
+    font-weight: lighter;
+    text-align: left;
+    margin-left: -1%;
+    line-height:1.1;
+
+  }
+
+  .texto_dos{
+    position: absolute;
+    width: 40%;
+    font-size: 37px;
+    color: #b09f61;
+    font-family: HelveticaNeueLTStd-Th;
+    margin-left:60%;
+    margin-top: -46%;
+
+  }
+  .parrafo_dos{
+    position: absolute;
+    width: 20%;
+    font-size: 15px;
+    color: white;
+    margin-left:60%;
+    margin-top: -32%;
+
+  }
+  .hojasflores{
+    width: 17%;
+    position: absolute;
+    margin-left:80%;
+    margin-top: -30%;
+
+  }
+
+  .texto_reserva{
+    font-size: 50px;
+    position: absolute;
+    width: 70%;
+    color: #b09f61;
+    font-family:HelveticaNeueLTStd-Th;
+    margin-top: -40%;
+    margin-left:36%;
+   }
+
+   .form_reserva{
+     position: absolute;
+     width: 6%;
+     display: flex;
+     max-width: 59%;
+     margin-top: -32%;
+     margin-left: 32%;
+     border: 1px solid rgba(18, 18, 19, 0);
+     height: 25%;
+   }
+
+    input{
+     background-color: rgba(18, 18, 19, 0);
+     border: 2px solid #b09f61;
+   	 font-size: 15px;
+     height: 39px;
+     width: 350px;
+     color:#b09f61;
+     padding-left: 20px;
+     border-radius: 3px;
+
+
+
+   }
+
+  .colibri{
+    float: left;
+    max-width: 15%;
+    margin-left: 1%;
+    width: 20%;
+
+  }
+  .img_colibri{
+    width: 130%;
+  }
+  .footer_menu{
+
+    margin-left:-2%;
+
+  }
+
+  .footer_contact{
+    margin-top: 4%;
+    margin-left:6%;
+    font-family:HelveticaNeueLTStd-Th;
+    color: #b09f61;
+  }
+  .img_flor_roja{
+    display: none;
+   }
+  .input_suscribete{
+    width: 115%;
+  }
+
+  #footer_master{
+    background-color: #040e2a;
+    height: 50px;
+
+  }
+
+}
+
+
+@media(max-width: 800px){
+
+  .fuente_2{
+    font-size: 33px;
+  }
+
+  .fuente_3{
+    width: 40%;
+    font-size: 33px;
+  }
+
+  .texto_dos{
+    font-size: 30px;
+  }
+
+  .texto_reserva{
+    font-size: 40px;
+   }
+
+
+
+
+  input{
+   background-color: rgba(18, 18, 19, 0);
+   border: 2px solid #b09f61;
+   font-size: 15px;
+   height: 39px;
+   width: 250px;
+   color:#b09f61;
+   padding-left: 20px;
+   border-radius: 3px;
+   margin-top: 3px;
+
+
+  }
+
+  .colibri{
+    float: left;
+    max-width: 15%;
+    margin-left: 1%;
+    width: 20%;
+
+  }
+  .img_colibri{
+    width: 130%;
+  }
+  .form_suscribir{
+    margin-top: 4%;
+    margin-left:20%;
+    font-family:HelveticaNeueLTStd-Th;
+    color: #b09f61;
+  }
+
+  .footer_menu{
+    margin-left:-2%;
+   }
+
+  .footer_contact{
+    margin-top: 4%;
+    margin-left:6%;
+    font-family:HelveticaNeueLTStd-Th;
+    color: #b09f61;
+  }
+  .footer_conoce{
+   margin-left: 42%;
+  }
+  .img_flor_roja{
+   display: block;
+   margin-left: 45%;
+   margin-top: -15%;
+   width: 20%;
+   }
+  .input_suscribete{
+    width: 115%;
+  }
+
+  #footer_master{
+    background-color: #040e2a;
+    height: 50px;
+
+  }
+
+}
+
+@media(max-width: 480px){
+
+  .caja_blanca{
+    width: 60%;
+    margin-left: 3%;
+    position: absolute;
+    margin-top: -60%;
+    border-radius: 5px;
+
+
+  }
+  .img-salon{
+    width: 45%;
+    margin-left: 55%;
+    position: absolute;
+    margin-top: -35%;
+    border-radius: 5px;
+  }
+
+  .fuente_2{
+    font-size: 23px;
+    margin-top: -30%;
+  }
+
+  .fuente_3{
+    width: 60%;
+    font-size: 25px;
+    margin-top: -3%;
+    margin-left: 5%;
+  }
+  .fuente_4{
+
+    display: none;
+  }
+
+  .texto_dos{
+    font-size: 20px;
+  }
+  .parrafo_dos{
+    display: none;
+
+  }
+  .hojasflores{
+    width: 19%;
+    position: absolute;
+    margin-left:80%;
+    margin-top: -20%;
+
+  }
+
+  .texto_reserva{
+    font-size: 20px;
+    position: absolute;
+    width: 40%;
+    color: #b09f61;
+    font-family:HelveticaNeueLTStd-Th;
+    margin-top: -44%;
+    margin-left:36%;
+   }
+
+   .form_reserva{
+     position: absolute;
+     width: 85%;
+     display: flex;
+     max-width: 59%;
+     margin-top: -38%;
+     margin-left: 20%;
+     height: 5%;
+   }
+
+   input{
+     background-color: rgba(18, 18, 19, 0);
+   	border: 2px solid #b09f61;
+   	font-size: 15px;
+     height: 29px;
+     color:#b09f61;
+     padding-left: 20px;
+     border-radius: 3px;
+   }
+
+
+
+  .colibri{
+    float: left;
+    max-width: 15%;
+    margin-left: 1%;
+    width: 20%;
+
+  }
+  .img_colibri{
+    width: 330%;
+  }
+  .footer_menu a{
+  }
+
+  .form_suscribir{
+    margin-top: 26%;
+    margin-left:1%;
+    font-family:HelveticaNeueLTStd-Th;
+    color: #b09f61;
+  }
+
+  .footer_menu{
+    height: 8%;
+    width: 5%;
+    margin-top: 4%;
+    margin-left:16%;
+    font-family:HelveticaNeueLTStd-Th;
+  }
+
+  .footer_contact{
+    margin-top: 5%;
+    margin-left:39%;
+    font-family:HelveticaNeueLTStd-Th;
+    color: #b09f61;
+  }
+  .footer_conoce{
+   margin-left: 42%;
+  }
+  .img_flor_roja{
+   display: none;
+   }
+  .input_suscribete{
+    width: 115%;
+  }
+
+  #footer_master{
+    background-color: #040e2a;
+    height: 10%;
+
+  }
+
+}

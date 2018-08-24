@@ -1,0 +1,233 @@
+
+
+.fondo_contacto{
+  height: 700px;
+  background: white;
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  border-radius: 5px;
+}
+.img_waze{
+  position: absolute;
+  margin-left: -23%;
+  margin-top: 10%;
+  width: 3%;
+}
+.linea_puntos{
+  margin-top: 4%;
+  width: 100%;
+}
+.img_pajarito{
+  position: absolute;
+  width: 10%;
+  margin-top: -6.9%;
+  margin-left: 8%;
+}
+
+
+/* segundo bloque info */
+.info{
+  width: 80%;
+  font-size: 30px;
+  font-family:HelveticaNeueLTStd-Th;
+  color: #b09f61;
+  line-height:1.1;
+  margin-left: 3%;
+  text-align: left;
+
+}
+.img_contacto_hojas{
+  width: 35%;
+  margin-left: 70%;
+  margin-top: -30%;
+}
+.info_telefono{
+  text-align: left;
+  margin-left: 3%;
+  font-family:HelveticaNeueLTStd-Th;
+
+}
+
+.contacto_caja_texto{
+  margin-top: 8%;
+  width: 100%;
+  margin-left: -0%;
+  position: relative;
+
+}
+.contacto_caja_2{
+  width: 50%;
+  margin-left: 2%;
+}
+
+/* parqueo */
+.contacto_caja_3{
+  width: 50%;
+  margin-left: 15%;
+}
+.parqueo_texto_1{
+  width: 100%;
+  font-size: 30px;
+  font-family:HelveticaNeueLTStd-Th;
+  color: #b09f61;
+  line-height:1.1;
+  margin-left: -3%;
+  text-align: left;
+
+}
+.texto_eventos{
+  width: 100%;
+  font-size: 30px;
+  font-family:HelveticaNeueLTStd-Th;
+  color: #b09f61;
+  line-height:1.1;
+  margin-left: -3%;
+  text-align: left;
+}
+
+.parqueo_texto_2{
+  text-align: left;
+  margin-left: -3%;
+  font-family:HelveticaNeueLTStd-Th;
+
+}
+
+
+.texto_horario{
+  width: 100%;
+  font-size: 30px;
+  font-family:HelveticaNeueLTStd-Th;
+  color: #b09f61;
+  line-height:1.1;
+  margin-left: -3%;
+  text-align: left;
+
+}
+.texto_caja_2{
+  text-align: left;
+  margin-left: -3%;
+  font-family:HelveticaNeueLTStd-Th;
+
+}
+.contacto_text_1{
+  width: 100%;
+  font-size: 30px;
+  font-family:HelveticaNeueLTStd-Th;
+  color: #b09f61;
+  line-height:1.1;
+  margin-left: 3%;
+
+}
+.contacto_text_2{
+  text-align: left;
+  width: 100%;
+  margin-left: 23%;
+  font-family:HelveticaNeueLTStd-Th;
+}
+small{
+  color: black;
+}
+.contacto_caja_1{
+  margin-left: 4%;
+}
+
+@media screen and (max-width: 1024px){
+  .contacto_caja_texto{
+    margin-top: 3%;
+  }
+
+
+@media screen and (max-width: 800px){
+  .fondo_contacto{
+    height: 1000px;
+
+  }
+  .texto_caja_2{
+    text-align: left;
+    margin-left: 3%;
+    font-family:HelveticaNeueLTStd-Th;
+
+  }
+  .texto_horario{
+    text-align: center;
+  }
+  .parqueo_texto_2{
+
+margin-left: 0%;
+  }
+  .contacto_caja_3{
+    text-align: center;
+    margin-left: 30%;
+  }
+  .contacto_caja_2{
+    text-align: center;
+    margin-left: 30%;
+  }
+  .contacto_text_2{
+    width: 30%;
+    margin-left: 30%;
+  }
+  .parqueo_texto_1{
+    text-align: center;
+    margin-left: -9%;
+  }
+
+  .contacto_caja_texto{
+    margin-top: 3%;
+  }
+  .info{
+    width: 70%;
+    margin-left:10%;
+  }
+.texto_eventos{
+
+  width: 100%;
+  font-size: 30px;
+  font-family:HelveticaNeueLTStd-Th;
+  color: #b09f61;
+  line-height:1.1;
+  margin-left: 3%;
+  text-align: left;
+}
+.contacto_caja_2{
+
+}
+
+
+}
+
+@media screen and (max-width: 480px){
+
+  .fondo_contacto{
+    height: 900px;
+    border: 1px solid red;
+    margin-top: 30%;
+
+  }
+.contacto_text_2{
+ width: 100%;
+ margin-left: 1%;
+}
+.contacto_caja_2{
+  width: 100%;
+  margin-left: 1%;
+}
+
+.contacto_caja_3{
+  width: 100%;
+  margin-left: 1%;
+}
+.texto_caja_2{
+  width: 100%;
+  margin-left: 3%;
+}
+.img_contacto_hojas{
+  width: 35%;
+  margin-left: 76%;
+  margin-top: -20%;
+}
+
+}

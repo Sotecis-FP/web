@@ -1,0 +1,33 @@
+.caja-radios{
+  border: 1px solid #be965f4a;
+  padding: 1.5%;
+  margin-top: 2%;
+}
+.caja-radios label{
+  color:#BE965F;
+  font-family: Avenir;
+  font-weight: normal;
+  padding-left: 2%;
+}
+
+.btn-continuar{
+  color: white;
+  background: #F5C89C;
+
+  margin-top: 2%;
+  width: 42.5%;
+  border-radius: 2px;
+  height: 35px;
+}
+
+.text-sub{
+  color:#BE965F;
+  font-family: Avenir;
+}
+
+
+.subtotal-m{
+  font-family: SunValley;
+  font-size: 28px;
+  color:#BE965F;
+}
