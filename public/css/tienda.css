@@ -1,0 +1,19 @@
+@media (max-width: 480px) {
+
+.img-header{
+  margin-top: -3%;
+}
+  .text-categoria{
+  font-size: 8px;
+  }
+  .text-categoria2{
+    font-size: 14px;
+  }
+  .novias{
+    height: 37px;
+  }
+  .novias-text{
+    margin-top: 10%;
+    font-size: 12px;
+  }
+}

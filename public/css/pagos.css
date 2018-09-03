@@ -31,3 +31,40 @@
   font-size: 28px;
   color:#BE965F;
 }
+
+.detalle-cliente{
+
+  margin-top: 2%;
+}
+.detalle-sub{
+  border-left: 1px solid #BE965F;
+  margin-top: 2%;
+}
+
+.titulo-detalle{
+  float: left;
+  margin-left: 10%;
+  padding-top: 1%;
+  font-size: 20px;
+  color:#BE965F;
+  font-family: Avenir;
+}
+
+@media (max-width: 480px) {
+
+  .caja-radios{
+    border: 1px solid #be965f4a;
+  }
+  .caja-radios label{
+    color:#BE965F;
+    font-family: Avenir;
+    font-weight: normal;
+    font-size: 12px;
+
+    height: 4px;
+   }
+   .caja-radios input{
+     border: 1px solid red;
+     margin-left: 3%;
+   }
+}

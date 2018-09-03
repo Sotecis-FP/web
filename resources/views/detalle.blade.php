@@ -3,7 +3,7 @@
 @section('content')
 @include('sweetalert::alert')
 
-<div class="caja-slider">
+<div class="">
 
   <div class="detalle">
     <div>
@@ -19,20 +19,24 @@
 <p class="precio">${{$producto->precio}}</p>
 
 </div>
+
 <div class="row caja-cuerpo">
-<div class="col-md-6 seccion-a">
+  <form class="" action="{{url('cart/add',$producto->id)}}" method="post">
+    {!!csrf_field()!!}
+<div class="col-md-6 col-sm-6 seccion-a">
   <div class="cantidad">
-    Cantidad <input type="number" min="1" name="" value="1">
+    Cantidad <input type="number" min="1" max="100" name="cantidad" value="1">
   </div>
 <div class="agregar">
-  <a href="{{url('gregar')}}">
- <button type="button" name="button">AGREGAR AL CARRO</button>
+  <a href="">
+ <button type="submit" name="button">AGREGAR AL CARRO</button>
  </a>
 </div>
 
 </div>
 
-<div class="col-md-6 seccion-b">
+</form>
+<div class="col-md-6 col-sm-6 seccion-b">
 <p>{{$producto->descripcion}}</p>
 </div>
 

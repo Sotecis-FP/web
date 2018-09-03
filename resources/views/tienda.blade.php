@@ -7,7 +7,8 @@
 </div>
 
 <div class=" caja-categorias row">
-  <div class="col-md-4 col-sm-4 col-xs-4">
+
+  <div class="col-md-4 col-sm-4 col-xs-4 caja-cat">
     <a href="{{url('opcion',1)}}">
     <img class="img-categorias" src="/img/tienda/naturales.jpg" alt="">
     </a>
@@ -28,13 +29,12 @@
     <a href="{{url('opcion',3)}}">
     <img class="img-categorias"src="/img/tienda/novias.jpg" alt="">
     </a>
-    <div class="caja-text-categoria">
-        <p class="text-categoria">NOVIAS</p>
+    <div class="caja-text-categoria novias">
+        <p class="text-categoria novias-text">NOVIAS</p>
     </div>
   </div>
 </div>
-
-<div class="caja-productos row">
+ <div class="caja-productos row">
   @if(isset($categoria->nombre))
   <h2 class="titulo-productos" >{{$categoria->nombre}}</h2>
   @else
@@ -51,21 +51,15 @@
   <div class="col-md-9 row " id="productos">
     @foreach($productos as $producto)
     <a href="{{url('detalle',$producto->id)}}">
-    <div class="col-md-4 " id="general" >
+    <div class="col-md-4 col-xs-6 " id="general" >
     <img class="img-productos" src="/{{$producto->imagen}}" alt="">
     <div class="caja-text-producto">
-    <p class="text-categoria">{{$producto->nombre}}</p>
+    <p class="text-categoria text-categoria2 ">{{$producto->nombre}}</p>
     </div>
     </div>
     </a>
-    @endforeach
-
-
-
+  @endforeach
   </div>
-
-
-
 
 </div>
 

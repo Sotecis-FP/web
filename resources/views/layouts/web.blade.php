@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">﻿
   <meta content="" name="keywords">
   <meta content="" name="description">
+  <meta name="csrf-token" content="{{ csrf_token() }}">
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -27,6 +28,7 @@
     {{ Html::style('css/carro.css') }}
     {{ Html::style('css/pagos.css') }}
     {{ Html::style('css/ventana.css') }}
+    {{ Html::style('css/tienda.css') }}
     {{ Html::script('https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js') }}
 
 
@@ -44,6 +46,7 @@
 </head>
 
 <body>
+
 <header id="header">
   <div class="container">
       <div id="logo" class="pull-left">
@@ -58,10 +61,8 @@
           <li class="menu-active"><a href="{{url('tienda')}}">TIENDA</a></li>
           <li class="menu-active"><a href="/#contacto">CONTACTO</a></li>
           <li  class="menu-active">
-            <a href="{{url('carro')}}">
-
-              <i class="fa fa-shopping-cart fa-3x"><span class="badge">4</span></i>
-
+            <a href="{{url('cart/show')}}">
+              <i class="fa fa-shopping-cart fa-3x"><span class="badge">{{count(Session::get('cart'))}}</span></i>
           </a>
 
         </li>
@@ -71,16 +72,13 @@
 </header><!-- #header -->
 
 
-
-<div class="contenedor">
   @yield('content')
-</div>
 <!-- JavaScript Libraries -->
 {{ Html::script('flores/lib/jquery/jquery.min.js') }}
 {{ Html::script('flores/lib/wow/wow.min.js') }}
+{{ Html::script('js/ajax.js') }}
 {{ Html::script('flores/js/main.js') }}
 {{ Html::script('flores/lib/superfish/superfish.min.js') }}
-
 
 @yield('scripts')
 <!-- Template Main Javascript File -->

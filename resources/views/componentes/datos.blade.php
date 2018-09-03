@@ -9,27 +9,77 @@
 
 <!-- Formulario flotante -->
 <div class="ventana_flotante_form">
-          <form class="form_registro" method="POST" action="{{url('reservar')}}">
-            {{ csrf_field() }}
+          <form id="myForm" class="form_registro" action="#"   >
+            {!!csrf_field()!!}
+
               <a href="javascript:closeVentana();"  ><p onclick="closeVentana()" class="cerrar_form">X</p></a>
               <p class="titulo_formulario">
-                  CONFIRMAR RESERVA
+                  INFORMACIÓN DEL COMPRADOR
               </p>
-              <label class="form_titulo">NOMBRE</label>
+              <br>
+
+              <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="">NOMBRE</label>
+                    <input required type="text" class="form-control in" id="nombre" placeholder="">
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="">TELÉFONO</label>
+                    <input required type="text" class="form-control in" id="telefono" placeholder="">
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="">CORREO</label>
+                    <input  type="text" class="form-control in" id="correo" placeholder="">
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="">DIRECCIÓN</label>
+                    <input required type="text" class="form-control in" id="direccion" placeholder="">
+                  </div>
+              </div>
+              
+              <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="">BARRIO</label>
+                    <input type="text" class="form-control in" id="barrio" placeholder="">
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="">RECIBE</label>
+                    <input required type="text" class="form-control in" id="recibe" placeholder="">
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="">FECHA</label>
+                    <input required type="date" class="form-control in" id="fecha" placeholder="">
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="">HORA</label>
+                    <input type="time" class="form-control in" id="hora" placeholder="">
+                  </div>
+              </div>
+              <div class="col-md-6">
+                <br>
+                <center><input class="enviar_flotante" type="button" id="btn-form"   value="CONTINUAR" ></center>
+              </div>
+              <!-- <label class="form_titulo">NOMBRE</label>
               <input class="input_flotante" required name="nombre" style="color: #b09f61" type="text"><br>
               <label class="form_titulo">CORREO</label>
               <input class="input_flotante" name="correo" required style="color: #b09f61" type="email"><br>
               <label class="form_titulo">CELULAR</label>
               <input class="input_flotante" required name="celular"  style="color: #b09f61" type="text"><br>
               <label class="form_titulo">No. PERSONAS</label>
-              <input class="input_flotante" required name="personas"  style="color: #b09f61" type="text"><br>
-              <label class="form_titulo">FECHA</label>
-              <input class="input_flotante" required name="fecha"  style="color: #b09f61" type="date"><br>
+              <input class="input_flotante" required name="personas"  style="color: #b09f61" type="text"><br> -->
 
-              <label class="form_titulo">¿CELEBRAS ALGO?</label>
-              <input class="input_flotante" name="celebras"  style="color: #b09f61" type="text"><br>
 
-              <br>
-              <center><input class="enviar_flotante" type="submit"  value="CONFIRMAR" onClick="validate()"></center>
           </form>
   </div>  <!-- Cierre Div.(ventana)  -->

@@ -1,7 +1,6 @@
 /* FORMUALRIO FLOTANTE - PARA REGISTRO DE NUEVO ASESOR  */
 @font-face {
-  font-family: HelveticaNeueLTStd-Th;
-  src:url(../fuentes/HelveticaNeueLTStd-Th.otf);
+
 }
 
 .ventana_flotante_form{
@@ -16,23 +15,37 @@
     display: none;
 }
 
-.form_registro{
-border: 1px solid #b09f61;
-position: absolute;
-background: #040e2a;
-width: 325px;
-text-align: center;
-padding: 15px 30px 30px 30px;
-border-radius: 15px;
-top: 4%;
-left: 38%;
+.ventana_flotante_form2{
+  width: 100%;
+  height: 100%;
+  color: white;
+  position: fixed;
+  background-image: url(backgound_flotante.png);
+  top: 10%;
+  left: 0;
+  border: none;
+  display: none;
 
+}
+.in{
+  color: black;
+}
+.form_registro{
+  border: 1px solid #b09f61;
+  position: absolute;
+  background: #DEB769;
+  width: 625px;
+  text-align: center;
+  padding: 15px 30px 30px 30px;
+  border-radius: 15px;
+  top: 4%;
+  left: 28%;
 }
 
 p.titulo_formulario{
     font-family: HelveticaNeueLTStd-Th;
     font-size: 20px;
-    color: gray;
+    color: white;
     padding-top: 0;
     margin-top: 0;
 }
@@ -40,7 +53,7 @@ p.titulo_formulario{
 p.cerrar_form{
 font-family: HelveticaNeueLTStd-Th;
 font-size: 19px;
-color: orange;
+color: white;
 /*   border: 1px solid red;  */
 text-align: right;
 font-weight: bold;
@@ -64,11 +77,11 @@ input.enviar_flotante{
     background: #b09f61;
     width: 170px;
     border: 0;
-    padding: 5px 14px 5px 14px;
+    padding: 4px 14px 5px 14px;
     border-radius: 5px;
     font-size: 17px;
     font-family: HelveticaNeueLTStd-Th;
-    color: black;
+    color: white;
     margin-bottom: 6px;
     height: 30px;
 }
@@ -94,7 +107,7 @@ margin-top: 0%;
 
 .form_titulo{
   padding-top: 11px;
-    height: 21px;
+  height: 21px;
 }
 .form_input{
   border:1px solid yellow;
@@ -113,7 +126,7 @@ margin-top: 0%;
           width: 100%;
           height: 100%;
           color: white;
-          position: fixed;
+          position: absolute;
           background-image: url(backgound_flotante.png);
           top: 10%;
           left: 0;
@@ -122,31 +135,46 @@ margin-top: 0%;
 
       }
 
-      .form_registro{
-      border: 1px solid #b09f61;
-      position: absolute;
-      background: #040e2a;
-      width: 325px;
-      text-align: center;
-      padding: 15px 30px 30px 30px;
-      border-radius: 15px;
-      top: 4%;
-      left: 8%;
+      .ventana_flotante_form2{
+        width: 100%;
+        height: 100%;
+        color: white;
+        background-image: url(backgound_flotante.png);
+        top: 10%;
+        left: 0;
+        border: none;
+        display: none;
+        position: absolute;
 
+      }
+      .in{
+        color: black;
+      }
+      .form_registro{
+        border: 1px solid #b09f61;
+        position: absolute;
+        background: #DEB769;
+        width: 345px;
+        text-align: center;
+        padding: 22px 30px 30px 30px;
+        border-radius: 15px;
+        top: -28%;
+        left: 7%;
       }
 
       p.titulo_formulario{
           font-family: HelveticaNeueLTStd-Th;
           font-size: 20px;
-          color: gray;
+          color: white;
           padding-top: 0;
-          margin-top: 0;
+          margin-top: -12%;
+
       }
 
       p.cerrar_form{
       font-family: HelveticaNeueLTStd-Th;
       font-size: 19px;
-      color: orange;
+      color: white;
       /*   border: 1px solid red;  */
       text-align: right;
       font-weight: bold;
@@ -170,11 +198,11 @@ margin-top: 0%;
           background: #b09f61;
           width: 170px;
           border: 0;
-          padding: 5px 14px 5px 14px;
+          padding: 4px 14px 5px 14px;
           border-radius: 5px;
           font-size: 17px;
           font-family: HelveticaNeueLTStd-Th;
-          color: black;
+          color: white;
           margin-bottom: 6px;
           height: 30px;
       }
@@ -189,20 +217,23 @@ margin-top: 0%;
       background-color: rgba(18, 18, 19, 0);
       }
 
-      label{
+      /* label{
       font-family: HelveticaNeueLTStd-Th;
       color: gray;
       float: left;
       padding: 0px 0px 0px 6px;
       font-size: 18px;
       margin-top: 0%;
-      }
+      } */
 
       .form_titulo{
         padding-top: 11px;
-          height: 21px;
+        height: 21px;
       }
       .form_input{
         border:1px solid yellow;
       }
+
+
+
 }

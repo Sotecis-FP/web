@@ -8,19 +8,17 @@
 }
 
 
+
 /* index */
 .logo2{
-	margin-left: 40%;
+	margin-left: 20%;
 }
 .avenir{
 	font-family: Avenir;
 	font-size: 38px;
 	color: black;
 }
-.caja-combina{
-	margin-left: 20%;
-	margin-top: 30%;
-}
+
 .combina{
 font-family: Avenir;
 font-size: 25px;
@@ -41,8 +39,8 @@ font-weight:normal;
 	margin-left: 25%;
 }
 .parrafo{
-	width: 85%;
-	margin-left: 20%;
+	width: 100%;
+	margin-left: 0%;
 	margin-top: 5%;
 }
 .contenido-1{
@@ -51,12 +49,46 @@ font-size: 18px;
 font-family: Avenir;
 color: black;
 margin-top: -1%;
-
 }
 
+.contenedor{
+}
 
 .caja-slider{
-	margin-top: -2%;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin-top: -2%;
+}
+
+.caja-slider h1{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: Avenir;
+}
+.caja-slider p{
+  text-align: center;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: Avenir;
+}
+.caja-slider button{
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Avenir;
+  background-color: #ffffff40;
+  color: white;
+  font-family: Avenir;
 }
 .img-slider{
 width: 100%;
@@ -66,165 +98,208 @@ width: 100%;
 }
 
 .img-cuadro_1{
-	width: 80%;om
+	width: 90%;
 }
 
 /* seccion-2 */
 .seccion-2{
-margin-top: 3%;
+   margin-top: 3%;
+}
+
+.caja-combina{
+	margin-top: 60%;
+  margin-left: -20%;
 }
 .img-cuadro_2{
-	width: 50%;
-	margin-top: -7%;
-	margin-left: 10%;
-
+  width: 100%;
 }
 .img-cuadro_3{
-	width: 30%;
+  margin-top: 20%;
+	width: 100%;
 }
 /* seccion-3 */
 .seccion-3{
- position: relative;
-
+  width: 100%;
+  display: block;
+  position: relative;
+  display: block;
 }
 .img-mancha{
  width: 100%;
- display: block;
+}
+
+.caja-contenido-seccion3{
+    display: block;
+    position: absolute;
+    bottom: 16px;
+    top: 29%;
+    left: 0;
+    padding: 5px;
+    width: 98%;
 }
 
 .texto-titulo{
-	position: absolute;
 	color: white;
-  top: 40%;
-	left: 15%;
-	right: 0;
-	width: 23%;
 	font-size: 70px;
 	font-family: SunValley;
+  margin-left: 27%;
 }
 .texto-centro{
-	position: absolute;
 	color: black;
-  top: 53%;
-	left: 16%;
-	right: 0;
-	width: 33%;
 	font-size: 23px;
+  font-family: Avenir;
+  margin-left:30%;
 }
 .texto-descripcion{
-	position: absolute;
 	color: black;
-  top: 58%;
-	left: 16%;
-	right: 0;
-	width: 25%;
 	font-size: 15px;
 	font-family: Avenir;
+  margin-left:30%;
 }
+
 .logo-ftd{
-	position: absolute;
 	color: black;
-  top: 55%;
-	/* left: 0; */
-	right: 25%;
-	width: 13%;
+  margin-top: 10%;
+  width: 32%;
 }
 
 /* seccion-4 */
+
+.seccion-4 {
+
+}
+
+
 .caja-texto-4{
-	text-align: center;
 	margin-top: 5%;
+  width: 100%;
+}
+
+.f-naturales{
+  font-size: 26px;
+  text-align: center;
+  width: 100%;
+  font-family: Avenir;
 }
 .y{
-
 	margin-top: -3%;
 	font-size: 58px;
 	margin-left: 1%;
 	font-family: SunValley;
 	color: #F5C89C;
-
 }
 .artificiales{
 	padding-left: 20%;
 	margin-top: -4%;
+  font-family: Avenir;
+  font-size: 26px;
+}
+
+.caja-imagen-seccion4{
+  position: relative;
+  width: 101%;
+  margin: auto;
 }
 .fondo-seccion-4{
 	width: 50%;
-	float: left;
-	position: relative;
 }
 .florero-1{
 	width: 20%;
-	position: absolute;
-	margin-top: 15%;
-	left: 10%;
-	right: 0;
+  position: absolute;
+  left: 10%;
+  top: 20%;
 
 }
 .florero-2{
+  top: 11.5%;
 	width: 30%;
-	position: absolute;
-	margin-top: 15%;
-	right: 12%;
-
+  position: absolute;
 }
+
 .btn-tienda{
+  position: absolute;
 	width: 15%;
-	position: absolute;
-	margin-top: 55%;
-	margin-left: -5%;
 	border: 1px solid #00000069;
+  top: 80%;
+  text-align: center;
+  left: 44%;
 }
 
 /* seccion-5 */
-.contc-descripcion{
+.seccion-5{
+  width: 100%;
+  margin-top: 20%;
+}
 
-	text-align: center;
-	padding-left: 30%;
-	padding-right: 30%;
-	text-align: left;
+.contactanos{
+  font-family:Avenir;
+  font-size: 23px;
+  padding: 2px 30% 2px;
+}
+
+.contc-descripcion{
+ width: 50%;
+ text-align: left;
+ margin:auto;
+ margin-top: 3%;
 }
 
 .form{
-margin-top: 6%;
+    margin-top: 6%;
+    width: 100%;
+
 }
-.caja-input{
+.caja-form{
+  width: 100%;
+  margin: auto;
 }
 .caja-input input{
 	border: 0;
 	border-bottom: 1px solid #ccc;
 	width: 60%;
-	margin-top: 6%;
+	margin-top: 10%;
 	margin-left: 30%;
 
 }
+::-webkit-input-placeholder{
+  font-family: Avenir;
+}
 .caja-textarea{
-	margin-top: 2%;
+
 }
 .caja-textarea textarea{
+  margin-top: 13.5%;
 	border: 1px solid #0000002b;
+  resize: none;
+  width: 70%;
 }
 .btn-enviar{
 	width: 62%;
 	border: 1px solid #0000002b;
 	background: #F5C89C;
 	color: white;
+  font-family: Avenir;
+  font-size: 18px;
 }
 
 /* Footer */
 footer{
-	position: relative;
+  width: 100%;
+  margin-top: 3%;
+  position: relative;
+  margin-top: 40%;
 }
+
 
 footer img{
 	width: 100%;
 }
 footer div{
-	position: absolute;
+  position: absolute;
   top: 3%;
 	width: 100%;
 	font-size: 13px;
-	margin-top: 10%;
+	margin-top: 7%;
 }
 footer div .uno{
  margin-left: 30%;
@@ -317,24 +392,31 @@ margin-top: 10%;
 
 
 /* Estilos de la tienda */
+
+.caja-img-tienda{
+  position: relative;
+}
 .img-header{
 	width: 100%;
-	position: relative;
 }
 .img-categorias{
 	width: 70%;
 	margin: 8%;
+  margin-left: 14%;
 }
 .caja-categorias{
-	margin-top: -10%;
 	width: 100%;
-	margin-left: 2%;
+  margin: auto;
+  margin-top: -10%;
+}
+.caja-cat{
 }
 .caja-text-categoria{
 	border: 1px solid #F5C89C;
 	width: 70%;
 	margin: 8%;
 	margin-top: -8%;
+  margin-left: 14%;
 }
 .caja-text-producto{
 	border: 1px solid #F5C89C;
@@ -376,5 +458,193 @@ color:#BE965F;
 }
 .menu li{
 	margin-top: 4%;
+
+}
+
+
+@media (max-width: 480px) {
+  .logo2{
+    margin-left: 15%;
+    text-align: center;
+  }
+
+  .avenir{
+    font-size: 26px;
+    text-align: center;
+    width: 100%;
+  }
+  .contenido-1{
+    width: 100%;
+    font-size: 15px;
+  }
+  .img-cuadro_1{
+  width: 100%;
+
+  }
+
+  .caja-slider h1{
+    font-size: 22px;
+    width: 100%;
+  }
+
+  .caja-slider p{
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Avenir;
+  }
+  .caja-slider button{
+
+    top: 80%;
+    background-color: #00000000;
+    color: white;
+
+  }
+
+  /* seccion 2 */
+  .caja-combina{
+  	margin-top: 10%;
+    margin-left: 0%;
+  }
+  .img-cuadro_2{
+    width: 100%;
+    margin-top: 10%;
+    text-align: center;
+
+
+  }
+  .img-cuadro_3{
+  	width: 80%;
+  }
+
+  /* Seccion 3 */
+  .caja-contenido-seccion3{
+      width: 90%;
+  }
+
+  .texto-titulo{
+  	color: white;
+  	font-size: 40px;
+  	font-family: SunValley;
+    margin-left: 27%;
+  }
+  .texto-centro{
+  	color: black;
+  	font-size: 13px;
+    font-family: Avenir;
+    margin-left:30%;
+    margin-top: -11%;
+  }
+  .texto-descripcion{
+  	color: black;
+  	font-size: 12px;
+  	font-family: Avenir;
+    margin-left:30%;
+    display: none;
+  }
+
+  .logo-ftd{
+    margin-top: 10%;
+    width: 100%;
+  }
+
+  /* Seccion 4 */
+  .btn-tienda{
+  	width: 25%;
+    left: 40%;
+    top: 84%;
+  }
+  .f-naturales{
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+  }
+  .y{
+  	margin-top: -7%;
+  	font-size: 38px;
+  	margin-left: 1%;
+  	font-family: SunValley;
+  	color: #F5C89C;
+  }
+  .artificiales{
+  	margin-top: -13%;
+    font-size: 18px;
+    margin-left: 20%;
+
+  }
+  .florero-2{
+    left: 61%;
+  }
+
+  /* Seccion 5 */
+
+  .caja-input input{
+  	margin-left: 10%;
+
+  }
+  .caja-textarea textarea{
+    margin-top: 13.5%;
+  	border: 1px solid #0000002b;
+    resize: none;
+    width: 70%;
+    margin-left: 10%;
+    height: 100px;
+  }
+
+  .btn-enviar{
+  	width: 62%;
+  	border: 1px solid #0000002b;
+  	background: #F5C89C;
+  	color: white;
+    font-family: Avenir;
+    font-size: 18px;
+    margin-left: 10%;
+  }
+
+  .contc-descripcion{
+   width: 80%;
+
+  }
+
+  /* Footer */
+  .footer-img{
+    height: 450px;
+  }
+
+  .icon img{
+  	width: 10%;
+  	margin-top: 0%;
+    margin-left: 1%;
+
+  }
+
+  .angles img{
+    width: 28%;
+  }
+
+  /* DETALLE */
+
+  .agregar button{
+  	background: #F5C89C;
+  	color: white;
+  	border: 0;
+  	padding: 3%;
+  	width: 100%;
+    font-size: 12px;
+  }
+  .seccion-b p{
+    width: 100%;
+    margin: auto;
+    padding: 2%;
+  }
+  .cantidad input{
+  	width: 30%;
+  	margin-left: 10%;
+
+  }
+
 
 }

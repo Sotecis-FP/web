@@ -1367,6 +1367,7 @@ a.DTTT_button {
     border: 1px solid #E7E7E7 !important;
     background: #E7E7E7 !important;
     box-shadow: none !important;
+    display: none;
 }
 
 table.jambo_table {

@@ -25,7 +25,7 @@
 <div class="col-md-3 left_col">
 <div class="left_col scroll-view">
 <div class="navbar nav_title" style="border: 0;">
-<a href="index.html" class="site_title"><img style="width:75%;" src="/img/logo_ixtus_blanco.png" alt="..."></a>
+<a href="index.html" class="site_title"><img style="width:85%;" src="/img/logo.png" alt="..."></a>
 </div>
 <div class="clearfix"></div>
 <!-- menu prile quick info -->
@@ -35,7 +35,7 @@
 </div>
 <div class="profile_info">
 <span>Bienvenido,</span>
-<h2>Andres Ochoa</h2>
+<!-- <h2>Andres Ochoa</h2> -->
 </div>
 </div>
 <!-- /menu prile quick info -->
@@ -48,14 +48,26 @@
 <li>
 <a href="/ixtus"><i class="fa fa-home"></i> Dashboard </a>
 </li>
+
 <li><a><i class="fa fa-user"></i> Productos <span class="fa fa-chevron-down"></span></a>
 <ul class="nav child_menu" style="display: none">
 <li><a href="{{url('producto-crear')}}">Crear</a>
 </li>
-<li><a href="{{url('producto-lista')}}">Lista</a>
+<li><a href="{{route('producto.listar')}}">Lista</a>
 </li>
 </ul>
 </li>
+
+
+<li><a><i class="fa fa-user"></i>Ordenes<span class="fa fa-chevron-down"></span></a>
+  <ul class="nav child_menu" style="display: none">
+    <li>
+      <a href="{{route('orden.listar')}}">Lista</a>
+    </li>
+  </ul>
+
+</li>
+
 <li><a><i class="fa fa-user"></i> Usuarios <span class="fa fa-chevron-down"></span></a>
 <ul class="nav child_menu" style="display: none">
 <li><a href="{{url('usuario-crear')}}">Administrar</a>
@@ -65,11 +77,7 @@
 </ul>
 </li>
 </div>
-<div class="menu_section">
-<h3>App Móvil</h3>
-<ul class="nav side-menu">
-</ul>
-</div>
+
 </div>
 <!-- /sidebar menu -->
 <!-- /menu footer buttons -->
@@ -94,7 +102,7 @@
 <ul class="dropdown-menu dropdown-usermenu animated fadeInDown pull-right">
 <li><a href="javascript:;">  Perfil</a>
 </li>
-<li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Salir</a>
+<li><a href=""><i class="fa fa-sign-out pull-right"></i> Salir</a>
 </li>
 </ul>
 </li>
