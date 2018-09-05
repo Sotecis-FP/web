@@ -62,7 +62,11 @@
           <li class="menu-active"><a href="/#contacto">CONTACTO</a></li>
           <li  class="menu-active">
             <a href="{{url('cart/show')}}">
+              @if(Session::get('cart'))
               <i class="fa fa-shopping-cart fa-3x"><span class="badge">{{count(Session::get('cart'))}}</span></i>
+              @else
+              <i class="fa fa-shopping-cart fa-3x"><span class="badge">0</span></i>
+              @endif
           </a>
 
         </li>
