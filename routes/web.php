@@ -16,7 +16,9 @@ Route::get('tienda','TiendaController@index');
 Route::get('administracion',function(){
   return view('login');
 });
+Route::get('logout','UserController@logout');
 Route::post('verificar','UserController@verificar');
+
 
 
 
@@ -44,6 +46,11 @@ Route::get('crear/orden','CartController@crearOrden');
 
 
 //PANEL DE ADMINISTRACION
+Route::middleware(['auth'])->group(function(){
+Route::get('dashboard','DashboardController@index');
+});
+
+
 Route::get('producto/lista','ProductoController@listar')->name('producto.listar');
 Route::get('producto/ver/{producto}','ProductoController@ver')->name('producto.ver');
 Route::get('producto/editar/{producto}','ProductoController@editar')->name('producto.editar');

@@ -82,11 +82,11 @@
 
   <div class="col-md-6">
     <div class="row">
-      <div class="caja-radios col-xs-6">
+      <div class="caja-radios col-md-12 col-xs-6">
         <input type="radio" name="accion" value="tienda"/>
         <label for="huey">RECOGER EN LA TIENDA</label>
       </div>
-      <div class="caja-radios col-xs-6" >
+      <div class="caja-radios col-md-12 col-xs-6" >
         <input type="radio" name="accion" value="envio" />
         <label for="huey">ENVIO A DOMICILIO</label>
       </div>

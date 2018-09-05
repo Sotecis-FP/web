@@ -46,7 +46,7 @@
 <h3>S. Admin</h3>
 <ul class="nav side-menu">
 <li>
-<a href="/ixtus"><i class="fa fa-home"></i> Dashboard </a>
+<a href="/dashboard"><i class="fa fa-home"></i> Dashboard </a>
 </li>
 
 <li><a><i class="fa fa-user"></i> Productos <span class="fa fa-chevron-down"></span></a>
@@ -68,12 +68,6 @@
 
 </li>
 
-<li><a><i class="fa fa-user"></i> Usuarios <span class="fa fa-chevron-down"></span></a>
-<ul class="nav child_menu" style="display: none">
-<li><a href="{{url('usuario-crear')}}">Administrar</a>
-</li>
-</ul>
-</li>
 </ul>
 </li>
 </div>
@@ -100,16 +94,16 @@
 <span class=" fa fa-angle-down"></span>
 </a>
 <ul class="dropdown-menu dropdown-usermenu animated fadeInDown pull-right">
-<li><a href="javascript:;">  Perfil</a>
-</li>
-<li><a href=""><i class="fa fa-sign-out pull-right"></i> Salir</a>
+
+
+<li><a href="/logout"><i class="fa fa-sign-out pull-right"></i> Salir</a>
 </li>
 </ul>
 </li>
 <li role="presentation" class="dropdown">
 <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
 <i class="fa fa-envelope-o"></i>
-<span class="badge bg-green">6</span>
+<span class="badge bg-green">0</span>
 </a>
 <ul id="menu1" class="dropdown-menu list-unstyled msg_list animated fadeInDown" role="menu">
 <li>

@@ -13,7 +13,7 @@
 <div class="x_title">
 <h2>F.Prado</h2>
 <small>
-<a href="{{url('ver_productos')}}">
+<a href="{{route('producto.listar')}}">
 <button type="button" style="width:30%; margin-left:30px;"  class="btn btn-default" name="button">VER PRODUCTOS</button>
 </a></small>
 <ul class="nav navbar-right panel_toolbox">
