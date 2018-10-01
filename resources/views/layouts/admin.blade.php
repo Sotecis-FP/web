@@ -59,10 +59,18 @@
 </li>
 
 
-<li><a><i class="fa fa-user"></i>Ordenes<span class="fa fa-chevron-down"></span></a>
+<li><a><i class="fa fa-book"></i>Ordenes<span class="fa fa-chevron-down"></span></a>
   <ul class="nav child_menu" style="display: none">
     <li>
       <a href="{{route('orden.listar')}}">Lista</a>
+    </li>
+  </ul>
+
+</li>
+<li><a><i class="fa fa-book"></i>Reportes<span class="fa fa-chevron-down"></span></a>
+  <ul class="nav child_menu" style="display: none">
+    <li>
+      <a href="{{route('orden.listar')}}">Geneal</a>
     </li>
   </ul>
 
