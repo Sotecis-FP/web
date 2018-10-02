@@ -62,7 +62,10 @@
 
   <div class="col-md-9 row " id="productos">
 
-    <a v-for="producto in productos" v-bind:href="'detalle/'+producto.id">
+    <div v-for="producto in productos" class="">
+
+
+    <a  v-bind:href="'detalle/'+producto.id">
     <div class="col-md-4 col-xs-6 " id="general" >
     <img class="img-productos" v-bind:src="host+'/'+producto.imagen" alt="">
     <div class="caja-text-producto">
@@ -70,6 +73,9 @@
     </div>
     </div>
     </a>
+    </div>
+
+    <p>@{{host}}</p>
 
   </div>
 
