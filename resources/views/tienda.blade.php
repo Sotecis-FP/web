@@ -75,7 +75,9 @@
     </a>
     </div>
 
-    <p>@{{host}}</p>
+
+      <img v-bind:src="host+'/'+ 'productos/cwtEyozLcxL6KcSBRjSUFZl3YxJR09KdnlR2TUEp.jpeg'" alt="">
+
 
   </div>
 
