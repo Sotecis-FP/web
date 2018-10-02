@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="utf-8">
   <title>Flores del Prado </title>
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">﻿
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta content="" name="keywords">
   <meta content="" name="description">
   <meta name="csrf-token" content="{{ csrf_token() }}">
   <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
+  <!-- <link href="img/favicon.png" rel="icon"> -->
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
