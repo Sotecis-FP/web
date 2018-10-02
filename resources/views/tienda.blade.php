@@ -64,7 +64,7 @@
 
     <a v-for="producto in productos" v-bind:href="'detalle/'+producto.id">
     <div class="col-md-4 col-xs-6 " id="general" >
-    <img class="img-productos" v-bind:src="'/'+producto.imagen" alt="">
+    <img class="img-productos" v-bind:src="host+'/'+producto.imagen" alt="">
     <div class="caja-text-producto">
     <p class="text-categoria text-categoria2">@{{producto.nombre}} <br>  $@{{producto.precio}}</p>
     </div>
@@ -92,7 +92,8 @@
     data:{
       subs:[],
       productos:[],
-      selected: undefined
+      selected: undefined,
+      host:'http://'+location.host
     },
     methods:{
       getSubcategoria: function(id){

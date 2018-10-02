@@ -3,7 +3,7 @@
 }
 
 .highlight {
-  color:#fbdec2;
+  color:#fbdec2 !important;
 
 }
 
@@ -15,6 +15,10 @@
 
 
 @media (max-width: 480px) {
+  .highlight {
+    color:#fbdec2 !important;
+
+  }
 
 .img-header{
   margin-top: -3%;
