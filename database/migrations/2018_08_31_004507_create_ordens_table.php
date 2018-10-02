@@ -30,6 +30,8 @@ class CreateOrdensTable extends Migration
             $table->string('fecha')->nullable();
             $table->string('hora')->nullable();
             $table->string('total')->nullable();
+            $table->string('de')->nullable();
+            $table->string('para')->nullable();
             $table->timestamps();
         });
     }

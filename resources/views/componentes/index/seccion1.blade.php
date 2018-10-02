@@ -8,15 +8,7 @@
 
     <div class="parrafo">
       <p class="avenir" >MAS QUE UNA FLORISTERIA</p>
-      <p class="contenido-1" >Duis in vestibulum erat. Ut consequat suscipit nisi
-         sed accumsan. Quisque ornare sollicitudin metus vel
-         tempus. Cras purus mi, sollicitudin eget bibendum vitae,
-         pharetra ut quam. Sed enim turpis, porta vitae arcu nec,
-         egestas ultrices mauris. Nulla eu accumsan diam. Duis
-         dignissim consequat tellus, vel rhoncus erat aliquam non.
-         Integer sit amet ex quis libero suscipit malesuada. Vivamus
-         maximus nulla ut sem convallis, eu pharetra libero pellentesque.
-         Donec facilisis a eros in facilisis.
+      <p class="contenido-1" >Flores del Prado es una casa de diseño floral que va más allá de lo convencional para ofrecer a sus clientes un servicio personalizado, moderno, y de calidad como ninguna otra floristería en la ciudad de Barranquilla. Además de entregar los más bellos arreglos florales a destinos en toda Colombia y el mundo, y ofrecer novedosos artículos decorativos, ofrecemos asesorías para la decoración de todo tipo de eventos de acuerdo con los gustos de nuestros clientes y las últimas tendencias en decoración. Brindamos a nuestros clientes atención personalizada que hace realidad cada detalle para crear los momentos más inolvidables. 
       </p>
 
     </div>

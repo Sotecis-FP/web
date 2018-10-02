@@ -4,7 +4,7 @@
 
 <div class="caja-header-carro ">
   <img class="img-header img-carro" src="/img/carro/header.png" alt="">
-  <p class="titulo-carro " >Carro de compras</p>
+  <p class="titulo-carro" >Carro de compras</p>
 </div>
 
 <div class="container">
@@ -65,6 +65,7 @@
 {!!csrf_field()!!}
 <div class="container">
 <div class="formulario row ">
+
   <div class="col-sm-12 col-md-10 col-md-offset-1 ">
     <div class=" caja-textarea2 col-md-6">
       <p>MENSAJE EN TARJETA</p>
@@ -75,19 +76,21 @@
     </div>
 
 
-  <div class=" tienda  col-md-6 text-center">
-    <img src="img/tienda/tienda.png" alt="">
-    <img src="img/tienda/domicilio.png" alt="">
+  <div class="col-md-6 caja-radios2 ">
+    <p>DE:</p>
+    <input type="text" class="depara"  name="de" value="">
+    <p>PARA:</p>
+    <input type="text" class="depara"  name="para" value="">
   </div>
 
-  <div class="col-md-6">
+  <div class="col-md-6 caja-accion">
     <div class="row">
       <div class="caja-radios col-md-12 col-xs-6">
-        <input type="radio" name="accion" value="tienda"/>
+        <input id="accion" type="radio" name="accion" value="tienda"/>
         <label for="huey">RECOGER EN LA TIENDA</label>
       </div>
       <div class="caja-radios col-md-12 col-xs-6" >
-        <input type="radio" name="accion" value="envio" />
+        <input id="accion" type="radio" name="accion" value="envio" />
         <label for="huey">ENVIO A DOMICILIO</label>
       </div>
 

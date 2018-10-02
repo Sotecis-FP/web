@@ -41,6 +41,9 @@
 
 
 
+
+
+
     @yield('style')
 
 </head>
@@ -83,6 +86,9 @@
 {{ Html::script('js/ajax.js') }}
 {{ Html::script('flores/js/main.js') }}
 {{ Html::script('flores/lib/superfish/superfish.min.js') }}
+{{ Html::script('js/vue.js') }}
+{{ Html::script('js/axios.js') }}
+{{ Html::script('js/vue-router.js') }}
 
 @yield('scripts')
 <!-- Template Main Javascript File -->

@@ -103,7 +103,7 @@ width: 100%;
 
 /* seccion-2 */
 .seccion-2{
-   margin-top: 3%;
+   margin-top: -8%;
 }
 
 .caja-combina{
@@ -340,11 +340,13 @@ margin-top: 10%;
 	font-size: 18px;
 	margin-top: 1%;
 	text-align: center;
+  color:#F5C89C;
 }
 .precio{
 	font-size: 18px;
 	margin-top: 0%;
 	text-align: center;
+  color:#F5C89C;
 }
 .caja-cuerpo{
 	margin-top: 6%;
@@ -427,7 +429,7 @@ margin-top: 10%;
 
 .text-categoria{
 	text-align: center;
-	margin-top: 5%;
+	margin-top: 2%;
 	color: #F5C89C;
 }
 /* Seccion productos */
@@ -461,8 +463,125 @@ color:#BE965F;
 
 }
 
+@media (max-width: 1200px) {
+  .caja-combina{
+    margin-top: 30%;
+    margin-left: 0%;
+  }
+}
+
+@media (max-width: 1020px) {
+  .img-slider{
+    margin-top: -2%;
+  }
+  .logo{
+    margin-top: -36% !important;
+    margin-left: -5% !important;
+  }
+  .caja-slider p{
+    top: 59% !important;
+  }
+  .caja-slider h1{
+    font-size: 22px;
+    width: 100%;
+  }
+  .caja-slider button{
+    top: 70%;
+    background-color: #00000000;
+    color: white;
+
+  }
+  .caja-combina{
+    margin-top: 10%;
+    margin-left: 0%;
+  }
+  .img-cuadro_2{
+    width: 70%;
+    margin-top: 10%;
+    text-align: center;
+  }
+  .sun-1 {
+    margin-top: -2%;
+  }
+  .texto-descripcion{
+    display: none;
+  }
+
+}
+
+
+@media (max-width: 760px) {
+  .img-slider{
+    margin-top: -2%;
+  }
+  .logo{
+    margin-top: -36% !important;
+    margin-left: -5% !important;
+  }
+  .logo2{
+    margin-left: 15%;
+    text-align: center;
+  }
+  .caja-slider h1{
+    font-size: 22px;
+    width: 100%;
+  }
+  .caja-slider button{
+    top: 70%;
+    background-color: #00000000;
+    color: white;
+
+  }
+
+  .caja-slider p{
+    top: 60%;
+
+  }
+  .caja-combina{
+  	margin-top: 10%;
+    margin-left: 0%;
+  }
+  .img-cuadro_2{
+    width: 70%;
+    margin-top: 10%;
+    text-align: center;
+  }
+
+  .img-cuadro_3{
+  	width: 50%;
+    margin-top: -2%;
+
+  }
+  .texto-descripcion{
+    display: none;
+  }
+  .caja-input input{
+  	margin-left: 0%;
+
+  }
+  /* Footer */
+  .footer-img{
+    height: 500px;
+
+  }
+  .icon img{
+  	width: 8%;
+  	margin-top: 0%;
+    margin-left: 1%;
+
+  }
+
+}
+
 
 @media (max-width: 480px) {
+  .img-slider{
+    margin-top: -4%;
+  }
+  .logo{
+    margin-top: -40% !important;
+    margin-left: -8% !important;
+  }
   .logo2{
     margin-left: 15%;
     text-align: center;
@@ -486,6 +605,9 @@ color:#BE965F;
     font-size: 22px;
     width: 100%;
   }
+  .caja-slider h{
+
+  }
 
   .caja-slider p{
     text-align: center;
@@ -501,7 +623,6 @@ color:#BE965F;
     top: 80%;
     background-color: #00000000;
     color: white;
-
   }
 
   /* seccion 2 */
@@ -513,8 +634,6 @@ color:#BE965F;
     width: 100%;
     margin-top: 10%;
     text-align: center;
-
-
   }
   .img-cuadro_3{
   	width: 80%;

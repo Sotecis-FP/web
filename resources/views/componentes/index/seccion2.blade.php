@@ -1,6 +1,4 @@
 <div class="container">
-
-
 <div class="seccion-2 row">
   <div class="col-md-4  ">
     <div class="caja-combina">

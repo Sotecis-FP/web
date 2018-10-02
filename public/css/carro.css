@@ -1,3 +1,6 @@
+
+
+
 .caja-header-carro{
   position: relative;
   display: inline-block;
@@ -8,9 +11,9 @@
   position: absolute;
   top:50%;
   left: 50%;
-    font-family: SunValley;
-    font-size: 78px;
-    color:#ffffff;
+  font-family: SunValley;
+  font-size: 78px;
+  color:#ffffff;
   transform: translate(-50%, -50%);
 }
 
@@ -54,8 +57,6 @@ tr{
 .caja-textarea2 textarea{
   color:#BE965F;
   border: 1px solid #BE965F;
-
-
 }
 
 .tienda img{
@@ -75,6 +76,13 @@ tr{
   color: #BE965F;
   margin-top: -3%;
   border: 1px solid #BE965F;
+}
+
+.depara{
+  border: 1px solid #be965f4a;
+  padding: 1.5%;
+  width: 100%;
+
 }
 .fecha p{
   float: left;
@@ -128,7 +136,7 @@ tr{
       width: 100%;
     }
 
-    
+
 
 
   }

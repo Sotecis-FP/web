@@ -21,13 +21,28 @@ class TiendaController extends Controller
 
       $subcategorias = Subcategoria::where('categoria_id',$id)->get();
       $productos = Producto::where('categoria_id',$id)->get();
+
+
+
       return view('tienda')->with('productos',$productos)
                            ->with('subcategorias',$subcategorias)
                            ->with('categoria',$categoria);
     }
 
+    public function subcategoria($id){
+      $subcategorias = Subcategoria::where('categoria_id',$id)->get();
+      return $subcategorias;
+    }
+
+    public function getProductos($id){
+      return $productos = Producto::where('subcategoria_id',$id)->get();
+    }
+    public function getProCategoria($id){
+      return $productos = Producto::where('categoria_id',$id)->get();
+    }
+
     public function ver($id){
-      return $productos = Producto::where('subcategoria_id',$id)->get(); ;
+      return $productos = Producto::where('subcategoria_id',$id)->get();
 
     }
     public function detalle($id){

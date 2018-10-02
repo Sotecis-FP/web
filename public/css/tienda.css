@@ -1,19 +1,65 @@
+.active{
+  background: red;
+}
+
+.highlight {
+  color:#fbdec2;
+
+}
+
+.text-categoria-res{
+  display: none;
+}
+
+
+
+
 @media (max-width: 480px) {
 
 .img-header{
   margin-top: -3%;
 }
+.img-categorias {
+    width: 100%;
+    margin: 8%;
+    margin-left: 3%;
+}
+.caja-text-categoria{
+	border: 1px solid #F5C89C;
+	width: 100%;
+	margin: 8%;
+	margin-top: -8%;
+  margin-left: 3%;
+}
   .text-categoria{
   font-size: 8px;
+  display: none;
+  }
+  .text-categoria-res{
+    display: block;
+    text-align: center;
+  	margin-top: 2%;
+  	color: #F5C89C;
+    font-size: 14px;
   }
   .text-categoria2{
     font-size: 14px;
   }
   .novias{
-    height: 37px;
+    height: 32px;
   }
   .novias-text{
     margin-top: 10%;
     font-size: 12px;
   }
+  .titulo-subcategoria{
+    font-size: 10px;
+    font-family: Avenir;
+    color:#BE965F;
+  }
+  .img-productos {
+    width: 100%;
+    margin: 5%;
+}
+
 }

@@ -3,11 +3,26 @@
   padding: 1.5%;
   margin-top: 2%;
 }
+.caja-radios2{
+  border: 1px solid #be965f4a;
+  padding: 1.5%;
+  margin-top: 3.3%;
+  color: #BE965F;
+}
 .caja-radios label{
   color:#BE965F;
   font-family: Avenir;
   font-weight: normal;
   padding-left: 2%;
+}
+.caja-radios2 p{
+  color:#BE965F;
+  font-family: Avenir;
+  font-weight: normal;
+  padding-left: 2%;
+}
+.caja-accion{
+  margin-top: 8%;
 }
 
 .btn-continuar{

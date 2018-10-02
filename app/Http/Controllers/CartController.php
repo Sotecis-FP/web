@@ -53,6 +53,7 @@ class CartController extends Controller
 
 
   public function detalleCompra(Request $request){
+
     $client = \Session::get('client');
     $cart = \Session::get('cart');
 
@@ -86,9 +87,12 @@ class CartController extends Controller
     $datosOrden['descripcion'] = $datosPayu['description'];
     $datosOrden['total'] = $total;
     $datosOrden['accion'] = $request->accion;
+    $datosOrden['de'] = $request->de;
+    $datosOrden['para'] = $request->para;
 
     \Session::put('datosOrden',$datosOrden);
     //FIN
+
 
     return view('pagos')->with('client',$client)->with('request',$request)
                         ->with('total',$total)
@@ -116,6 +120,8 @@ class CartController extends Controller
     $orden->mensaje = $datosOrden['mensaje'];
     $orden->instruciones = $datosOrden['instrucciones'];
     $orden->accion = $datosOrden['accion'];
+    $orden->de = $datosOrden['de'];
+    $orden->para = $datosOrden['para'];
     $orden->save();
 
     return $orden;

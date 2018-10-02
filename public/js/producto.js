@@ -34,7 +34,7 @@ $( 'li' ).click(function() {
 });
 
 
-$('#myForm input').on('change', function() {
+$('#myForm #accion').on('change', function() {
   if ($('input[name=accion]:checked', '#myForm').val()=='tienda') {
   openVentana2();
 }else{

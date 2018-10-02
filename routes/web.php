@@ -20,10 +20,10 @@ Route::get('logout','UserController@logout');
 Route::post('verificar','UserController@verificar');
 
 
-
-
-
-
+//Tienda
+Route::get('subcategoria/{id}','TiendaController@subcategoria');
+Route::get('productos/{id}','TiendaController@getProductos');
+Route::get('procategoria/{id}','TiendaController@getProCategoria');
 
 
 Route::get('opcion/{id}','TiendaController@opcion');

@@ -86,6 +86,14 @@
      <option value="{{$orden->estado}}">{{$orden->estado}}</option>
    </select>
  </div>
+ <div class="col-md-6 form-group">
+   <label for="">DE</label>
+   <input type="text" class="form-control" disabled value="{{$orden->de}}">
+ </div>
+ <div class="col-md-6 form-group">
+   <label for="">PARA</label>
+   <input type="text" class="form-control" disabled value="{{$orden->para}}">
+ </div>
 
 
  <div class="col-md-6 form-group">
