@@ -54,7 +54,7 @@ $('#myForm #accion').on('change', function() {
    },
    data:{
      subs:[],
-     productos:[],
+     pros:[],
      selected: undefined,
      host:'http://'+location.host
    },
@@ -70,13 +70,13 @@ $('#myForm #accion').on('change', function() {
      getProductos: function(id){
        var url = 'productos/' + id;
        axios.get(url).then(response => {
-         this.productos = response.data;
+         this.pros = response.data;
        });
      },
      getProCategoria: function(id){
       var url = 'procategoria/' + id;
       axios.get(url).then(response => {
-        this.productos = response.data;
+        this.pros = response.data;
       });
      }
    }
