@@ -89,6 +89,7 @@
 {{ Html::script('js/vue.js') }}
 {{ Html::script('js/axios.js') }}
 {{ Html::script('js/vue-router.js') }}
+{{ Html::script('js/producto.js') }}
 
 @yield('scripts')
 <!-- Template Main Javascript File -->

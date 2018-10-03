@@ -85,12 +85,3 @@
 @include('layouts.footer')
 
 @endsection
-@section('scripts')
-{{ Html::script('js/producto.js') }}
-
-<script type="text/javascript">
-
-
-
-</script>
-@endsection
