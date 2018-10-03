@@ -63,7 +63,7 @@
   <div class="col-md-9 row ">
 
 <pre>
-  @{{productos}}
+  @{{subs}}
 </pre>
 
 

@@ -76,7 +76,7 @@ $('#myForm #accion').on('change', function() {
      getProCategoria: function(id){
       var url = 'procategoria/' + id;
       axios.get(url).then(response => {
-        this.productos = response.data
+        this.productos = response.data;
       });
      }
    }
