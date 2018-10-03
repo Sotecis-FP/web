@@ -61,24 +61,24 @@
   </div>
 
   <div class="col-md-9 row " id="productos">
+    <ul>
+      <li style="cursor:pointer;"  class="titulo-subcategoria"  v-for="producto in productos" v-text="">
+        <img class="img-productos" v-bind:src="host+'/'+ producto.imagen " alt="">
+        @{{producto.imagen}}</li>
+    </ul>
 
-    <div v-for="producto in productos" class="">
 
 
+    <!-- <div v-for="producto in productos">
     <a  v-bind:href="'detalle/'+producto.id">
     <div class="col-md-4 col-xs-6 " id="general" >
-    <!-- <img class="img-productos" v-bind:src="host+'/'+ producto.imagen " alt=""> -->
+    <img class="img-productos" v-bind:src="host+'/'+ producto.imagen " alt="">
     <div class="caja-text-producto">
     <p class="text-categoria text-categoria2">@{{producto.nombre}} <br>  $@{{producto.precio}}</p>
     </div>
     </div>
     </a>
-    </div>
-
-
-      <img v-bind:src="host+'/'+ 'productos/cwtEyozLcxL6KcSBRjSUFZl3YxJR09KdnlR2TUEp.jpeg'" alt="">
-
-
+    </div> -->
   </div>
 
 </div>
