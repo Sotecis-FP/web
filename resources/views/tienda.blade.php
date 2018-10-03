@@ -60,7 +60,7 @@
      </ul>
   </div>
 
-  <div class="col-md-9 row " id="productos">
+  <div class="col-md-9 row ">
     <ul>
       <li style="cursor:pointer;"  class="titulo-subcategoria"  v-for="producto in productos" v-text="">
         <img class="img-productos" v-bind:src="host+'/'+ producto.imagen " alt="">
@@ -89,44 +89,10 @@
 @endsection
 @section('scripts')
 {{ Html::script('js/producto.js') }}
+
 <script type="text/javascript">
 
-  new Vue({
-    el:'#app',
-    created:function(){
-     this.getSubcategoria(1);
-     this.getProCategoria(1);
-    },
-    data:{
-      subs:[],
-      productos:[],
-      selected: undefined,
-      host:'http://'+location.host
-    },
-    methods:{
-      getSubcategoria: function(id){
-        this.subs =[''];
-        this.getProCategoria(id);
-        var url ='subcategoria/' + id;
-        axios.get(url).then(responde =>{
-						this.subs = responde.data;
-					});
-      },
-      getProductos: function(id){
-        var url = 'productos/' + id;
-        axios.get(url).then(response => {
-          this.productos = response.data;
-        });
-      },
-      getProCategoria: function(id){
-       var url = 'procategoria/' + id;
-       axios.get(url).then(response => {
-         this.productos = response.data
-       });
-      }
-    }
 
-  });
 
 </script>
 @endsection
