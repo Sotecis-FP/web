@@ -45,7 +45,7 @@ $('#myForm #accion').on('change', function() {
  });
 
 
-
+// VUE
  new Vue({
    el:'#app',
    created:function(){
