@@ -61,12 +61,10 @@
   </div>
 
   <div class="col-md-9 row ">
-    <ul>
-      <li style="cursor:pointer;"  class="titulo-subcategoria"  v-for="producto in productos" v-text="">
-        <img class="img-productos" v-bind:src="host+'/'+ producto.imagen " alt="">
-        @{{producto.imagen}}</li>
-    </ul>
 
+<pre>
+  @{{productos}}
+</pre>
 
 
     <!-- <div v-for="producto in productos">
