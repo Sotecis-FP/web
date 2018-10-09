@@ -90,6 +90,8 @@
    created:function(){
     this.getSubcategoria(1);
     this.getProCategoria(1);
+    console.log(this.host);
+
    },
    data:{
      subs:[],
@@ -101,19 +103,20 @@
      getSubcategoria: function(id){
        this.subs =[''];
        this.getProCategoria(id);
-       var url ='subcategoria/' + id;
+       var url = this.host + '/subcategoria/' + id;
        axios.get(url).then(responde =>{
           this.subs = responde.data;
+
         });
      },
      getProductos: function(id){
-       var url = 'productos/' + id;
+       var url = this.host + '/productos/' + id;
        axios.get(url).then(response => {
          this.productos = response.data;
        });
      },
      getProCategoria: function(id){
-      var url = 'procategoria/' + id;
+      var url = this.host + '/procategoria/' + id;
       axios.get(url).then(response => {
         this.productos = response.data;
       });
