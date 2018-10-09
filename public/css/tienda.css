@@ -11,6 +11,28 @@
   display: none;
 }
 
+.text-categoria2{
+  text-align: center;
+  margin-top: 2%;
+  color: #F5C89C;
+  font-size: 14px;
+
+}
+
+.caja-productos{
+	margin-top: 10%;
+  width: 100%;
+}
+
+.text-categoria-res{
+  display: block;
+  text-align: center;
+  margin-top: 2%;
+  color: #F5C89C;
+  font-size: 14px;
+
+}
+
 
 
 
@@ -22,11 +44,13 @@
 
 .img-header{
   margin-top: -3%;
+
 }
 .img-categorias {
     width: 100%;
     margin: 8%;
     margin-left: 3%;
+
 }
 .caja-text-categoria{
 	border: 1px solid #F5C89C;
@@ -38,6 +62,7 @@
   .text-categoria{
   font-size: 8px;
   display: none;
+
   }
   .text-categoria-res{
     display: block;
@@ -45,9 +70,19 @@
   	margin-top: 2%;
   	color: #F5C89C;
     font-size: 14px;
+
+  }
+  .caja-text-producto{
+  	border: 1px solid #F5C89C;
+  	width: 100%;
+  	margin: 5%;
+  	margin-top: -5%;
   }
   .text-categoria2{
-    font-size: 14px;
+    text-align: center;
+  	margin-top: 2%;
+  	color: #F5C89C;
+
   }
   .novias{
     height: 32px;

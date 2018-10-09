@@ -44,6 +44,10 @@ class SubcategoriaSeeder extends Seeder
         'nombre'=>'MADRES',
         'categoria_id'=>1
       ]);
+      Subcategoria::create([
+        'nombre'=>'FUNEBRES',
+        'categoria_id'=>1
+      ]);
 
       // ARREGLOS ARTIFICIALES
 
@@ -62,6 +66,10 @@ class SubcategoriaSeeder extends Seeder
       ]);
       Subcategoria::create([
         'nombre'=>'BOUQUETS',
+        'categoria_id'=>3
+      ]);
+      Subcategoria::create([
+        'nombre'=>'FUNEBRES',
         'categoria_id'=>3
       ]);
     }

@@ -8,7 +8,7 @@
 
 <div id="app">
 
-<div class=" caja-categorias row ">
+<div  class=" caja-categorias row ">
 
   <div class="col-md-4 col-sm-4 col-xs-4 caja-cat">
     <a href="#" style="text-decoration:none;">
@@ -35,8 +35,8 @@
     <img v-on:click.prevent="getSubcategoria(3)" class="img-categorias"src="/img/tienda/novias.jpg" alt="">
 
     <div class="caja-text-categoria novias">
-        <p class="text-categoria novias-text">NOVIAS</p>
-        <p class="text-categoria-res">NOVIAS</p>
+        <p class="text-categoria novias-text">EVENTOS</p>
+        <p class="text-categoria-res">EVENTOS</p>
     </div>
     </a>
   </div>
@@ -46,7 +46,8 @@
 
 
 
- <div class="caja-productos row">
+
+ <div  class="caja-productos row">
    <!--
   @if(isset($categoria->nombre))
   <h2 class="titulo-productos" >{{$categoria->nombre}}</h2>
@@ -68,7 +69,7 @@
     <div class="col-md-4 col-xs-6 " id="general" >
     <img class="img-productos" v-bind:src="host+'/'+ producto.imagen " alt="">
     <div class="caja-text-producto">
-    <p class="text-categoria text-categoria2">@{{producto.nombre}} <br>  $@{{producto.precio}}</p>
+    <p class=" text-categoria2">@{{producto.nombre}} <br>  $@{{producto.precio}}</p>
     </div>
     </div>
     </a>
@@ -76,6 +77,7 @@
   </div>
 
 </div>
+
 </div>
 
 @include('layouts.footer')

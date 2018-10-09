@@ -131,7 +131,7 @@ width: 100%;
     display: block;
     position: absolute;
     bottom: 16px;
-    top: 29%;
+    top: 36%;
     left: 0;
     padding: 5px;
     width: 98%;
@@ -142,6 +142,8 @@ width: 100%;
 	font-size: 70px;
 	font-family: SunValley;
   margin-left: 27%;
+  line-height: 0.8;
+  margin-top: 10%;
 }
 .texto-centro{
 	color: black;
@@ -446,9 +448,7 @@ color:#BE965F;
   font-family: Avenir;
  color:#BE965F;
 }
-.caja-productos{
-	margin-top: 10%;
-}
+
 .img-productos{
 	width: 75%;
 	margin: 5%;
@@ -466,6 +466,18 @@ color:#BE965F;
   .caja-combina{
     margin-top: 30%;
     margin-left: 0%;
+  }
+
+  .o-titulo{
+    margin-left: 7%;
+    margin-top: -5%;
+
+  }
+  .texto-centro{
+
+    margin-left: 7%;
+    margin-top: 0%;
+
   }
 }
 
@@ -501,6 +513,17 @@ color:#BE965F;
   }
   .sun-1 {
     margin-top: -2%;
+  }
+  .texto-titulo{
+    margin-left: 7%;
+    margin-top: -5%;
+
+  }
+  .texto-centro{
+
+    margin-left: 7%;
+    margin-top: 0%;
+
   }
   .texto-descripcion{
     display: none;
@@ -549,6 +572,17 @@ color:#BE965F;
   .img-cuadro_3{
   	width: 50%;
     margin-top: -2%;
+
+  }
+  .texto-titulo{
+    margin-left: 7%;
+    margin-top: -5%;
+
+  }
+  .texto-centro{
+
+    margin-left: 7%;
+    margin-top: 0%;
 
   }
   .texto-descripcion{
@@ -635,14 +669,17 @@ color:#BE965F;
 
   /* Seccion 3 */
   .caja-contenido-seccion3{
-      width: 90%;
+      width: 100%;
+
   }
 
   .texto-titulo{
   	color: white;
   	font-size: 40px;
   	font-family: SunValley;
-    margin-left: 27%;
+    margin-left: 7%;
+    margin-top: -5%;
+
   }
   .texto-centro{
   	color: black;
@@ -650,6 +687,9 @@ color:#BE965F;
     font-family: Avenir;
     margin-left:30%;
     margin-top: -11%;
+    margin-left: 7%;
+    margin-top: 0%;
+
   }
   .texto-descripcion{
   	color: black;
