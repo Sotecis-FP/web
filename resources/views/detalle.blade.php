@@ -16,7 +16,7 @@
     @endforeach
 </div>
 <p class="nombre-producto">{{$producto->nombre}}</p>
-<p class="precio">${{$producto->precio}}</p>
+<p class="precio">${{number_format($producto->precio)}}</p>
 
 </div>
 

@@ -29,7 +29,7 @@
    </div>
 
    <div class=" angles col-md-12 text-center">
-     <p>Copyright © 2018 Flores del Prado - Created by <img  src="/img/logo_3angles.png" alt=""></p>
+     <p>Copyright © 2018 Flores del Prado - Created by <img  src="/img/3angles_logo.png" alt=""></p>
    </div>
  </div>
 

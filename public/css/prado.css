@@ -7,8 +7,6 @@
   src:url(../fuentes/Sun Valley - Demo.ttf);
 }
 
-
-
 /* index */
 .logo2{
 	margin-left: 20%;
@@ -18,7 +16,6 @@
 	font-size: 38px;
 	color: black;
 }
-
 .combina{
 font-family: Avenir;
 font-size: 25px;
@@ -69,6 +66,7 @@ margin-top: -1%;
   transform: translate(-50%, -50%);
   color: white;
   font-family: Avenir;
+  font-size: 4vw;
 }
 .caja-slider p{
   text-align: center;
@@ -78,6 +76,7 @@ margin-top: -1%;
   transform: translate(-50%, -50%);
   color: white;
   font-family: Avenir;
+  font-size: 21px;
 }
 .caja-slider button{
   text-align: center;
@@ -87,7 +86,7 @@ margin-top: -1%;
   transform: translate(-50%, -50%);
   font-family: Avenir;
   background-color: #ffffff40;
-  color: white;
+  color:white;
   font-family: Avenir;
 }
 .img-slider{
@@ -610,13 +609,8 @@ color:#BE965F;
   }
 
   .caja-slider p{
-    text-align: center;
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-family: Avenir;
+
+    font-size: 15px;
   }
   .caja-slider button{
 

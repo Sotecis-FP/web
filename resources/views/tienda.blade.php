@@ -62,12 +62,8 @@
 
   <div class="col-md-9 row ">
 
-<pre>
-  @{{pros}}
-</pre>
 
-
-    <!-- <div v-for="producto in productos">
+     <div v-for="producto in productos">
     <a  v-bind:href="'detalle/'+producto.id">
     <div class="col-md-4 col-xs-6 " id="general" >
     <img class="img-productos" v-bind:src="host+'/'+ producto.imagen " alt="">
@@ -76,7 +72,7 @@
     </div>
     </div>
     </a>
-    </div> -->
+    </div>
   </div>
 
 </div>
@@ -84,4 +80,49 @@
 
 @include('layouts.footer')
 
+
+@section('scripts')
+<script type="text/javascript">
+
+// VUE
+ new Vue({
+   el:'#app',
+   created:function(){
+    this.getSubcategoria(1);
+    this.getProCategoria(1);
+   },
+   data:{
+     subs:[],
+     productos:[],
+     selected: undefined,
+     host:'http://'+location.host
+   },
+   methods:{
+     getSubcategoria: function(id){
+       this.subs =[''];
+       this.getProCategoria(id);
+       var url ='subcategoria/' + id;
+       axios.get(url).then(responde =>{
+          this.subs = responde.data;
+        });
+     },
+     getProductos: function(id){
+       var url = 'productos/' + id;
+       axios.get(url).then(response => {
+         this.productos = response.data;
+       });
+     },
+     getProCategoria: function(id){
+      var url = 'procategoria/' + id;
+      axios.get(url).then(response => {
+        this.productos = response.data;
+      });
+     }
+   }
+
+ });
+
+</script>
+
+@endsection
 @endsection

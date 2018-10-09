@@ -34,12 +34,12 @@
                             </div>
                         </div>
                       </td>
-                        <td class="col-sm-1 col-md-1 text-center"><strong>${{$cart->precio}}</strong></td>
+                        <td class="col-sm-1 col-md-1 text-center"><strong>${{number_format($cart->precio)}}</strong></td>
                         <td class="col-sm-1 col-md-1 text-center"><strong>{{$cart->cantidad}}</strong></td>
                         <!-- <td class="col-sm-1 col-md-1" style="text-align: center">
                         <input type="number" class="form-control" value="{{$cart->cantidad}}">
                         </td> -->
-                        <td class="col-sm-1 col-md-1 text-center"><strong>${{$cart->precio * $cart->cantidad }}</strong></td>
+                        <td class="col-sm-1 col-md-1 text-center"><strong>${{number_format($cart->precio * $cart->cantidad) }}</strong></td>
                     </tr>
                     @endforeach
 
@@ -51,7 +51,7 @@
               <h1 class="subtotal">Subtotal</h1>
             </div>
             <div class="col-md-2 col-xs-6">
-              <h1 class="sub-precio">${{$total}}</h1>
+              <h1 class="sub-precio">${{number_format($total)}}</h1>
 
             </div>
 

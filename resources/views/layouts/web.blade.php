@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -86,13 +87,18 @@
 {{ Html::script('js/ajax.js') }}
 {{ Html::script('flores/js/main.js') }}
 {{ Html::script('flores/lib/superfish/superfish.min.js') }}
-{{ Html::script('js/vue.js') }}
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<!-- {{ Html::script('js/vue.js') }} -->
 {{ Html::script('js/axios.js') }}
 {{ Html::script('js/vue-router.js') }}
 {{ Html::script('js/producto.js') }}
 
+
+
 @yield('scripts')
 <!-- Template Main Javascript File -->
+
+
 
 
 

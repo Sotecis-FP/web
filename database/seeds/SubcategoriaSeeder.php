@@ -45,7 +45,7 @@ class SubcategoriaSeeder extends Seeder
         'categoria_id'=>1
       ]);
 
-      // ARREGLOS NATURALES
+      // ARREGLOS ARTIFICIALES
 
       Subcategoria::create([
         'nombre'=>'ARREGLOS EN ROSAS',
@@ -54,6 +54,15 @@ class SubcategoriaSeeder extends Seeder
       Subcategoria::create([
         'nombre'=>'ARREGLOS EXOTICOS',
         'categoria_id'=>2
+      ]);
+      // NOVIAS
+      Subcategoria::create([
+        'nombre'=>'EVENTOS',
+        'categoria_id'=>3
+      ]);
+      Subcategoria::create([
+        'nombre'=>'BOUQUETS',
+        'categoria_id'=>3
       ]);
     }
 }
