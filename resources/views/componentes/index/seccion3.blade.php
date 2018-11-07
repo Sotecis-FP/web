@@ -7,7 +7,7 @@
           <p class="texto-titulo">Puedes enviar flores  </p>
       </div>
       <div class="col-md-12 col-xs-12">
-         <p class="texto-centro">A CUALQUIER PARTE DEL MUNDO!</p>
+         <p class="texto-centro">¡A CUALQUIER PARTE DEL MUNDO!</p>
       </div>
       <div class="col-md-12 col-xs-12">
         <p class="texto-descripcion">Hacemos parte de FTD (Florists’ Transworld Delivery), una red internacional de floristas que nos permite enviar y recibir flores de todas partes del mundo. Solo llámanos y nosotros haremos tu envío a donde quieras.
