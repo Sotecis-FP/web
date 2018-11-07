@@ -41,7 +41,9 @@
       <h1>Se acerca la navidad</h1>
       <p>DECORA TU HOGAR</p>
       <!-- <span> &#10053;</span> -->
-      <button type="button" class="btn btn-default" name="button">REGALA FLORES </button>
+      <a href="#">
+        <button type="button" class="btn btn-default" name="button">REGALA FLORES </button>
+      </a>
     </div>
     <div class="swiper-slide caja-slider">
       <img class="img-slider" src="img/slider/banner_rosas.jpg" alt="">
