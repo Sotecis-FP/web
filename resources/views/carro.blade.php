@@ -3,14 +3,14 @@
 
 
 <div class="caja-header-carro ">
-  <img class="img-header img-carro" src="/img/carro/header.png" alt="">
+  <img class="img-header img-carro" src="/img/contact_top_background.png" alt="">
   <p class="titulo-carro" >Carro de compras</p>
 </div>
 
-<div class="container">
-    <div class="row">
-        <div class="col-sm-12 col-md-10 col-md-offset-1 ">
-            <table class="table">
+<div class="container ">
+    <div class="row ">
+        <div class="col-sm-12 col-md-10 col-md-offset-1">
+            <table class="table caja-tabla-carro">
                 <thead>
                     <tr>
                         <th>PRODUCTO</th>
@@ -26,7 +26,7 @@
                     <tr>
                         <td class="col-sm-8 col-md-6">
                         <div class="media">
-                            <a class=" pull-left" href="#"> <img class="media-object" src="/{{$cart->imagen}}" style="width: 102px; height: 102px;"> </a>
+                            <a class=" pull-left" href="#"> <img class="media-object" src="/{{$cart->imagen}}"> </a>
                             <div  class="media-body">
                                 <p  class="texto-pro">{{$cart->nombre}}</p>
                                 <p>
@@ -91,7 +91,7 @@
       </div>
       <div class="caja-radios col-md-12 col-xs-6" >
         <input id="accion" type="radio" name="accion" value="envio" />
-        <label for="huey">ENVIO A DOMICILIO</label>
+        <label  for="huey">ENVIO A DOMICILIO</label>
       </div>
 
     </div>

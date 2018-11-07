@@ -1,8 +1,8 @@
 
 <footer>
- <img class="footer-img" src="/img/fondo_footer.jpg" alt="">
+ <img class="footer-img" src="/img/footer_fp.png" alt="">
 
- <div class="row">
+ <div class="row content-footer" >
    <div class="col-md-4 col-sm-4 col-xs-12">
       <p class="uno" style="font-weight:bold" >FLORES DEL PRADO</p>
       <p class="uno" style="font-weight:bold">House of Floral Design</p>
@@ -24,8 +24,12 @@
    </div>
 
    <div class=" icon col-md-12 text-center">
-     <img src="/img/instagram.png" alt="">
-     <img src="/img/facebook.png" alt="">
+     <a target="_blank" href="https://www.instagram.com/floresdelprado/?hl=es-la">
+     <img src="/img/instagram.png" alt="flores del prado">
+     </a>
+     <a target="_blank" href="https://www.facebook.com/Flores-del-Prado-2180708148866620/">
+     <img src="/img/facebook.png" alt="flores del prado">
+     </a>
    </div>
 
    <div class=" angles col-md-12 text-center">

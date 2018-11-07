@@ -13,6 +13,7 @@
     left: 0;
     border: none;
     display: none;
+    z-index: 3;
 }
 
 .ventana_flotante_form2{
@@ -25,6 +26,7 @@
   left: 0;
   border: none;
   display: none;
+  z-index: 3;
 
 }
 .in{
@@ -43,7 +45,7 @@
 }
 
 p.titulo_formulario{
-    font-family: HelveticaNeueLTStd-Th;
+    font-family: Avenir;
     font-size: 20px;
     color: white;
     padding-top: 0;
@@ -51,7 +53,7 @@ p.titulo_formulario{
 }
 
 p.cerrar_form{
-font-family: HelveticaNeueLTStd-Th;
+font-family: Avenir;
 font-size: 19px;
 color: white;
 /*   border: 1px solid red;  */
@@ -80,7 +82,7 @@ input.enviar_flotante{
     padding: 4px 14px 5px 14px;
     border-radius: 5px;
     font-size: 17px;
-    font-family: HelveticaNeueLTStd-Th;
+    font-family: Avenir;
     color: white;
     margin-bottom: 6px;
     height: 30px;
@@ -163,7 +165,7 @@ margin-top: 0%;
       }
 
       p.titulo_formulario{
-          font-family: HelveticaNeueLTStd-Th;
+          font-family: Avenir;
           font-size: 20px;
           color: white;
           padding-top: 0;
@@ -172,7 +174,7 @@ margin-top: 0%;
       }
 
       p.cerrar_form{
-      font-family: HelveticaNeueLTStd-Th;
+      font-family: Avenir;
       font-size: 19px;
       color: white;
       /*   border: 1px solid red;  */
@@ -201,7 +203,7 @@ margin-top: 0%;
           padding: 4px 14px 5px 14px;
           border-radius: 5px;
           font-size: 17px;
-          font-family: HelveticaNeueLTStd-Th;
+          font-family: Avenir;
           color: white;
           margin-bottom: 6px;
           height: 30px;

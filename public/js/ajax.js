@@ -40,6 +40,9 @@ $('#btn-form2').click(function(event) {
   var correo = $('#correot').val();
   var fecha = $('#fechat').val();
   var hora = $('#horat').val();
+  var direccion = $('#direcciont').val();
+
+  console.log(direccion);
 
 
  $.ajax({
@@ -51,13 +54,15 @@ $('#btn-form2').click(function(event) {
         telefono:telefono,
         correo:correo,
         fecha:fecha,
-        hora:hora
+        hora:hora,
+        direccion:direccion
       }
  });
 
  $(".ventana_flotante_form2").slideUp("fast");
 
 });
+
 $('#btn-form').click(function(event) {
 
       $.ajaxSetup({

@@ -6,25 +6,40 @@
   font-family: SunValley;
   src:url(../fuentes/Sun Valley - Demo.ttf);
 }
+@font-face {
+  font-family: GothamMedium;
+  src:url(../fuentes/Gotham-Medium.otf);
+}
 
 /* index */
 .logo2{
-	margin-left: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+
+.parallax{
+  /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .avenir{
-	font-family: Avenir;
-	font-size: 38px;
+	font-family: SunValley;
+	font-size: 58px;
 	color: black;
 }
 .combina{
 font-family: Avenir;
-font-size: 25px;
+font-size: 35px;
 color: black;
 }
 .sun-1{
 font-family: SunValley;
 color: #F5C89C;
-font-size: 40px;
+font-size: 50px;
 margin-left: 10%;
 margin-top: -5%;
 font-weight:normal;
@@ -46,6 +61,7 @@ font-size: 18px;
 font-family: Avenir;
 color: black;
 margin-top: -1%;
+text-align: justify;
 }
 
 .contenedor{
@@ -56,6 +72,7 @@ margin-top: -1%;
   display: inline-block;
   text-align: center;
   margin-top: -2%;
+
 }
 
 .caja-slider h1{
@@ -65,29 +82,33 @@ margin-top: -1%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-family: Avenir;
-  font-size: 4vw;
+  font-family: SunValley;
+  font-size: 12vw;
+  width: 100%;
+
 }
 .caja-slider p{
-  text-align: center;
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-family: Avenir;
-  font-size: 21px;
-}
-.caja-slider button{
   text-align: center;
   position: absolute;
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: white;
+  font-family: GothamMedium;
+  font-size: 31px;
+}
+.caja-slider button{
+  text-align: center;
+  position: absolute;
+  top: 68%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-family: Avenir;
-  background-color: #ffffff40;
+  background-color: #ffffff10;
   color:white;
-  font-family: Avenir;
+  font-family: GothamMedium;
+  font-size: 18px;
+  width: 15%;
 }
 .img-slider{
 width: 100%;
@@ -107,13 +128,13 @@ width: 100%;
 
 .caja-combina{
 	margin-top: 60%;
-  margin-left: -20%;
+  margin-left: 0%;
 }
 .img-cuadro_2{
   width: 100%;
 }
 .img-cuadro_3{
-  margin-top: 20%;
+  margin-top: 30%;
 	width: 100%;
 }
 /* seccion-3 */
@@ -229,24 +250,40 @@ width: 100%;
 /* seccion-5 */
 .seccion-5{
   width: 100%;
-  margin-top: 20%;
+  margin-top: 10%;
+  position: relative;
+}
+.caja-form-contacto{
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  margin-top: 2%;
+
 }
 
 .contactanos{
   font-family:Avenir;
-  font-size: 23px;
+  font-size: 33px;
   padding: 2px 30% 2px;
+  color:#F5C89C;
 }
 
 .contc-descripcion{
  width: 50%;
  text-align: left;
  margin:auto;
- margin-top: 3%;
+ margin-top: 0%;
+ text-align: center;
+ font-size: 21px;
+ font-family: Avenir;
+}
+.contc-descripcion span{
+  font-family: SunValley;
+  font-size: 41px;
 }
 
 .form{
-    margin-top: 6%;
+    margin-top: 1%;
     width: 100%;
 
 }
@@ -260,6 +297,7 @@ width: 100%;
 	width: 60%;
 	margin-top: 10%;
 	margin-left: 30%;
+  background: #00000000;
 
 }
 ::-webkit-input-placeholder{
@@ -273,9 +311,10 @@ width: 100%;
 	border: 1px solid #0000002b;
   resize: none;
   width: 70%;
+  background: #00000000;
 }
 .btn-enviar{
-	width: 62%;
+	width: 70%;
 	border: 1px solid #0000002b;
 	background: #F5C89C;
 	color: white;
@@ -313,6 +352,9 @@ footer div .uno{
   margin-left: 1%;
 
 }
+
+.icon img:hover {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.contenedor {overflow:hidden;}
 
 .angles{
 	margin-top: 2%;
@@ -462,6 +504,11 @@ color:#BE965F;
 
 }
 
+.content-footer{
+
+  margin-top: 15%;
+}
+
 @media (max-width: 1200px) {
   .caja-combina{
     margin-top: 30%;
@@ -489,17 +536,21 @@ color:#BE965F;
     margin-top: -36% !important;
     margin-left: -5% !important;
   }
+
   .caja-slider p{
     top: 59% !important;
+    margin-top: 2%;
   }
   .caja-slider h1{
-    font-size: 22px;
+    font-size: 82px;
     width: 100%;
   }
   .caja-slider button{
     top: 70%;
     background-color: #00000000;
     color: white;
+    width: 40%;
+    margin-top: 2%;
 
   }
   .caja-combina{
@@ -513,6 +564,7 @@ color:#BE965F;
   }
   .sun-1 {
     margin-top: -2%;
+
   }
   .texto-titulo{
     margin-left: 7%;
@@ -540,23 +592,30 @@ color:#BE965F;
     margin-top: -36% !important;
     margin-left: -5% !important;
   }
+  .caja-texto_1{
+
+
+  }
   .logo2{
-    margin-left: 15%;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
   .caja-slider h1{
-    font-size: 22px;
+    font-size: 72px;
     width: 100%;
   }
   .caja-slider button{
     top: 70%;
     background-color: #00000000;
     color: white;
+    width: 50%;
+    margin-top: 2%;
 
   }
 
   .caja-slider p{
-    top: 60%;
+  margin-top: 2%;
 
   }
   .caja-combina{
@@ -578,9 +637,9 @@ color:#BE965F;
     margin-left: 7%;
     margin-top: -5%;
 
+
   }
   .texto-centro{
-
     margin-left: 7%;
     margin-top: 0%;
 
@@ -588,20 +647,40 @@ color:#BE965F;
   .texto-descripcion{
     display: none;
   }
-  .caja-input input{
-  	margin-left: 0%;
 
+  .caja-input input{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+  }
+  .caja-textarea textarea{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .btn-enviar{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
   /* Footer */
   .footer-img{
-    height: 500px;
+    height: 570px;
 
   }
+
   .icon img{
   	width: 8%;
   	margin-top: 0%;
     margin-left: 1%;
 
+  }
+  footer{
+    margin-top: 73%;
+  }
+  .angles img{
+    width: 20%;
   }
 
 }
@@ -616,18 +695,20 @@ color:#BE965F;
     margin-left: -8% !important;
   }
   .logo2{
-    margin-left: 15%;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
 
   .avenir{
-    font-size: 26px;
+    font-size: 36px;
     text-align: center;
     width: 100%;
   }
   .contenido-1{
     width: 100%;
     font-size: 15px;
+
   }
   .img-cuadro_1{
   width: 100%;
@@ -635,28 +716,29 @@ color:#BE965F;
   }
 
   .caja-slider h1{
-    font-size: 22px;
+    font-size: 42px;
     width: 100%;
   }
-  .caja-slider h{
 
-  }
 
   .caja-slider p{
-
     font-size: 15px;
+    margin-top: 2%;
   }
   .caja-slider button{
-
     top: 80%;
     background-color: #00000000;
     color: white;
+    width: 70%;
   }
 
   /* seccion 2 */
   .caja-combina{
   	margin-top: 10%;
     margin-left: 0%;
+  }
+  .combina-2{
+    font-size: 25px;
   }
   .img-cuadro_2{
     width: 100%;
@@ -678,7 +760,8 @@ color:#BE965F;
   	font-size: 40px;
   	font-family: SunValley;
     margin-left: 7%;
-    margin-top: -5%;
+    margin-top: -6%;
+
 
   }
   .texto-centro{
@@ -688,7 +771,7 @@ color:#BE965F;
     margin-left:30%;
     margin-top: -11%;
     margin-left: 7%;
-    margin-top: 0%;
+    margin-top: -1%;
 
   }
   .texto-descripcion{
@@ -734,6 +817,12 @@ color:#BE965F;
 
   /* Seccion 5 */
 
+  .contactanos{
+    text-align: center;
+    font-size: 25px;
+    padding: 0%;
+  }
+
   .caja-input input{
   	margin-left: 10%;
 
@@ -758,13 +847,14 @@ color:#BE965F;
   }
 
   .contc-descripcion{
-   width: 80%;
+   width: 100%;
 
   }
 
   /* Footer */
+
   .footer-img{
-    height: 450px;
+    height: 473px;
   }
 
   .icon img{
@@ -802,7 +892,7 @@ color:#BE965F;
   /* Footer */
   footer{
     width: 100%;
-    margin-top: 40%;
+    margin-top: 93%;
     position: relative;
 
   }

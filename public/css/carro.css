@@ -17,6 +17,10 @@
   transform: translate(-50%, -50%);
 }
 
+.media img{
+  width: 25%;
+}
+
 thead{
   color:#BE965F;
   font-family: Avenir;
@@ -122,12 +126,24 @@ tr{
     top:50%;
     left: 50%;
     font-family: SunValley;
-    font-size: 38px;
+    font-size: 58px;
     color:#ffffff;
     transform: translate(-50%, -50%);
+    width: 100%;
+  }
+
+  .caja-tabla-carro{
+
+  }
+  .table th td{
+    font-size: 21%;
   }
   .img-carro{
     height: 200px;
+  }
+
+  .media img{
+    width: 100%;
   }
 
     .caja-textarea2 textarea{
@@ -135,6 +151,15 @@ tr{
       border: 1px solid #BE965F;
       width: 100%;
     }
+
+    .caja-radios2{
+    width: 91%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+
 
 
 

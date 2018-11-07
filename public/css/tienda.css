@@ -65,7 +65,7 @@
 
   }
   .text-categoria-res{
-    display: block;
+    display: block !important;
     text-align: center;
   	margin-top: 2%;
   	color: #F5C89C;

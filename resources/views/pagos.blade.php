@@ -19,6 +19,7 @@
     <p class="text-sub">NOMBRE</p>
     <p class="text-sub">CORREO</p>
     <p class="text-sub">TELÉFONO</p>
+    <p class="text-sub">DIRECCIÓN</p>
     @if($request->accion =='envio')
       <p class="text-sub">DIRECCIÓN</p>
       <p class="text-sub">BARRIO</p>
@@ -31,6 +32,7 @@
     <p class="text-sub">{{$client['nombre']}}</p>
     <p class="text-sub">{{$client['correo']}}</p>
     <p class="text-sub">{{$client['telefono']}}</p>
+    <p class="text-sub">{{$client['direccion']}}</p>
     @if($request->accion =='envio')
     <p class="text-sub">{{$client['direccion']}}</p>
     <p class="text-sub">{{$client['barrio']}}</p>

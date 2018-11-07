@@ -20,27 +20,27 @@
 
 </div>
 
-<div class="row caja-cuerpo">
-  <form class="" action="{{url('cart/add',$producto->id)}}" method="post">
-    {!!csrf_field()!!}
-<div class="col-md-6 col-sm-6 seccion-a">
-  <div class="cantidad">
-    Cantidad <input type="number" min="1" max="100" name="cantidad" value="1">
+  <div class="row caja-cuerpo">
+    <form class="" action="{{url('cart/add',$producto->id)}}" method="post">
+      {!!csrf_field()!!}
+  <div class="col-md-6 col-sm-6 seccion-a">
+    <div class="cantidad">
+      Cantidad <input type="number" min="1" max="100" name="cantidad" value="1">
+    </div>
+  <div class="agregar">
+    <a href="">
+   <button type="submit" name="button">AGREGAR AL CARRO</button>
+   </a>
   </div>
-<div class="agregar">
-  <a href="">
- <button type="submit" name="button">AGREGAR AL CARRO</button>
- </a>
-</div>
 
-</div>
+  </div>
 
-</form>
-<div class="col-md-6 col-sm-6 seccion-b">
-<p>{{$producto->descripcion}}</p>
-</div>
+  </form>
+  <div class="col-md-6 col-sm-6 seccion-b">
+  <p>{{$producto->descripcion}}</p>
+  </div>
 
-</div>
+  </div>
 
 
 

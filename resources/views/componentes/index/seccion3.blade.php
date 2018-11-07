@@ -49,12 +49,13 @@
 
 <!-- CONTACTO  -->
 <div class="seccion-5" id="contacto">
+  <img style="width:100%;" src="img/contacto_fondo.png" alt="">
+  <div class="caja-form-contacto">
     <div class="text-center">
         <p class="contactanos" >CONTÁCTANOS</p>
 
-        <p class="contc-descripcion" >Duis dignissim consequat tellus, vel rhoncus erat aliquam non.
-           Integer sit amet ex quis libero suscipit malesuada. Vivamus maximus nulla ut sem
-          convallis, eu pharetra libero pellentesque. Donec facilisis a eros in facilisis.
+        <p class="contc-descripcion">
+            Escríbenos, <span>queremos saber de ti</span>
         </p>
     </div>
     <div class="form">
@@ -76,4 +77,7 @@
 
       </form>
     </div>
+  </div>
+
+
   </div>

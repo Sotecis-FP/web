@@ -42,7 +42,7 @@
                     <input required type="text" class="form-control in" id="direccion" placeholder="">
                   </div>
               </div>
-              
+
               <div class="col-md-6">
                   <div class="form-group">
                     <label for="">BARRIO</label>
@@ -69,7 +69,7 @@
               </div>
               <div class="col-md-6">
                 <br>
-                <center><input class="enviar_flotante" type="button" id="btn-form"   value="CONTINUAR" ></center>
+                <center><input class="enviar_flotante" type="button" id="btn-form"  value="CONTINUAR" ></center>
               </div>
               <!-- <label class="form_titulo">NOMBRE</label>
               <input class="input_flotante" required name="nombre" style="color: #b09f61" type="text"><br>

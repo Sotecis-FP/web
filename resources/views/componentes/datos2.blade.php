@@ -38,6 +38,12 @@
               </div>
               <div class="col-md-6">
                   <div class="form-group">
+                    <label for="">DIRECCIÓN</label>
+                    <input type="text" required class="form-control in" id="direcciont" name="direccion" placeholder="">
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-group">
                     <label for="">FECHA</label>
                     <input type="date"  class="form-control in" id="fechat" name="fechat" placeholder="">
                   </div>
