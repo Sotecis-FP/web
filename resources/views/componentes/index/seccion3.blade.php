@@ -29,21 +29,13 @@
       <p class="y" >y</p>
       <p class="artificiales ">ARTIFICIALES</p>
     </div>
-
-
   <div class="caja-imagen-seccion4 col-md-12">
       <img class="fondo-seccion-4" src="img/fondo_seccion_4.png" alt="">
       <img class="florero-1" src="img/florero_1.png" alt="">
       <img class="florero-2" src="img/florero_2.png" alt="">
       <a style="text-decoration:none;" href="/tienda" class="btn  btn-tienda">TIENDA</a>
   </div>
-
-
-
-
-
 </div>
-
 </div>
 
 
