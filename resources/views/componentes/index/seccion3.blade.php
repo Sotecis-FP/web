@@ -55,9 +55,9 @@
          <div class="caja-form row">
 
             <div class="caja-input col-md-6 col-sm-6">
-             <input type="text" name="" placeholder="Nombre"><br>
-             <input type="text" name="" placeholder="E-mail"><br>
-             <input type="text" name="" placeholder="Tel/Cel">
+             <input type="text" name="nombre" placeholder="Nombre"><br>
+             <input type="text" name="email" placeholder="E-mail"><br>
+             <input type="text" name="tel" placeholder="Tel/Cel">
            </div>
 
            <div class="caja-textarea col-md-6 col-sm-6 ">
