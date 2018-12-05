@@ -10,7 +10,10 @@ class UserController extends Controller
 {
   public function verificar(Request $request){
     if (Auth::attempt(['email'=>$request['usuario'], 'password'=>$request['pass']])) {
-      return redirect()->to('dashboard');
+      if (Auth::User()->rol == 'admin') {
+        return redirect()->to('dashboard');
+      }
+      return redirect()->to('/administracion');
     }
     return back();
   }

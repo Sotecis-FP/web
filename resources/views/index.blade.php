@@ -41,7 +41,7 @@
       <h1>Se acerca la navidad</h1>
       <p>DECORA TU HOGAR</p>
       <!-- <span> &#10053;</span> -->
-      <a href="#">
+      <a href="/tienda">
         <button type="button" class="btn btn-default" name="button">REGALA FLORES </button>
       </a>
     </div>
@@ -49,13 +49,17 @@
       <img class="img-slider" src="img/slider/banner_rosas.jpg" alt="">
       <h1>Flores exclusivas</h1>
       <p>DETALLES ÚNICOS</p>
+        <a href="/tienda">
       <button type="button" class="btn btn-default" name="button">REGALA FLORES</button>
+       </a>
     </div>
     <div class="swiper-slide caja-slider">
       <img class="img-slider" src="img/slider/banner_mesa.jpg" alt="">
       <h1>Espectaculares flores</h1>
       <p>PARA TUS EVENTOS</p>
+      <a href="/tienda">
       <button type="button" class="btn btn-default" name="button">REGALA FLORES</button>
+      </a>
     </div>
   </div>
   <!-- Add Pagination -->

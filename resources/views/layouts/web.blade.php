@@ -41,6 +41,17 @@
 
 {{ Html::script('https://unpkg.com/sweetalert2@7.18.0/dist/sweetalert2.all.js') }}
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130511775-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-130511775-1');
+</script>
+
+
 
     @yield('style')
 
@@ -54,7 +65,7 @@
 <header id="header">
   <div class="container">
       <div id="logo" class="pull-left">
-        <a href="#"><img class="logo" src="/img/logo-fp.png" alt="" title="" /></img></a>
+        <a href="/"><img class="logo" src="/img/logo-fp.png" alt="" title="" /></img></a>
         <!-- Uncomment below if you prefer to use a text logo -->
         <!--<h1><a href="#hero">Regna</a></h1>-->
       </div>

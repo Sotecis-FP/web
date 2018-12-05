@@ -68,3 +68,7 @@ Route::get('orden/buscar/{estado}','OrderController@buscar')->name('orden.buscar
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
